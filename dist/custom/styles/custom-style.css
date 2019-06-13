@@ -1,0 +1,229 @@
+/* FABRICIO OLIVEIRA STYLE CSS */
+
+
+
+/* main */
+#main{
+    width: 100%;
+    background: #F5F5F5;
+    margin: 0 auto;
+    padding: 0px 0px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+
+/* NAVBAR */
+
+/* main navbar */
+#main > #main-navbar{
+    width: 100%;
+    background: #FFFFFF;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* main navbar perfil button */
+#main > #main-navbar .perfil-btn{
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* main navbar perfil button image */
+#main > #main-navbar .perfil-btn .perfil-img-btn{
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+/* main navbar perfil button body */
+#main > #main-navbar .perfil-btn .perfil-body-btn{
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* main navbar perfil button body title*/
+#main > #main-navbar .perfil-btn .perfil-body-btn .perfil-title-btn{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* main navbar perfil button body title*/
+#main > #main-navbar .perfil-btn .perfil-body-btn .perfil-subtitle-btn{
+    padding: 0px;
+    margin: 0px;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+/* .NAVBAR */
+
+
+
+/* HEADER */
+
+/* main header */
+#main > #main-header{
+    padding: 50px 0px 60px;
+    text-align: center;
+}
+
+/* main header title */
+#main > #main-header .header-title{
+    margin: 0 auto;
+    padding: 0px 0px;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* main header subtitle */
+#main > #main-header .header-subtitle{
+    margin: 0 auto;
+    padding: 0px 0px;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: inherit;
+}
+
+/* .HEADER */
+
+
+
+/* CONTENT */
+
+/* main content */
+#main > #main-content{
+    padding: 0px 0px;
+}
+
+/* main content card */
+#main > #main-content .card{
+    background: transparent;
+    margin-bottom: 30px;
+    border: 0px;
+}
+
+/* main content card card-box*/
+#main > #main-content .card .card-box{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+/* main content card card-box card-box-options */
+#main > #main-content .card .card-box .card-box-options{
+    width: 100%;
+    background: #FFF;
+    padding: 15px 0;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -60px;
+    transition: 0.3s;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* main content card card-box card-box-options - effect hover*/
+#main > #main-content .card:hover .card-box-options{
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+/* main content card card-box card-box-options card-link*/
+#main > #main-content .card .card-box .card-box-options .card-link{
+    margin: 0px 5px;
+    border-radius: 3px;
+    background: #FFF;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #888;
+    border: 1px solid #eaeaea;
+    transition:0.3s;
+}
+
+/* main content card card-box card-box-options card-link - effect hover*/
+#main > #main-content .card .card-box .card-box-options .card-link:hover{
+    transform: scale(0.5);
+    background: royalblue;
+     border: 1px solid #90bbf5;
+    color: #FFF;
+    transition:0.3s;
+}
+
+
+/* main content card box image*/
+#main > #main-content .card .card-box .card-img{
+    border: 0px;
+    border-radius: 5px;
+    transition:0.3s;
+}
+
+/* main content card box image - effect hover*/
+#main > #main-content .card:hover  .card-img{
+    transform: scale(0.90);
+    transition:0.3s;
+}
+
+
+/* main content card body */
+#main > #main-content .card .card-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+    padding: 10px 0px;
+}
+
+/* main content card body title */
+#main > #main-content .card .card-body .card-title{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 16px;
+    font-weight: 100;
+     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* main content card body  image */
+#main > #main-content .card .card-body .card-body-img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px 0px 0px;
+    object-fit: cover;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+}
+
+/* .CONTENT */
+
+
+
+
+
+
+
+
+
+
