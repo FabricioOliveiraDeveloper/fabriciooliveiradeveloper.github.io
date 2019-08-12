@@ -1,0 +1,495 @@
+/* Fabricio Oliveira Portfolio css custom */
+
+
+
+/* html */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* backgrounds colors */
+
+/* gray ligth */
+.bg-gray-light {
+    background-color: #F5F5F5;
+}
+
+/* white */
+.bg-white {
+    background-color: #FFFFFF
+}
+
+.bg-black {
+    background-color: #1c1c1c;
+}
+
+/* backgrounds colors */
+
+
+
+/* btn colors */
+
+/* btn transparent */
+.btn-transparent {
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFFFFF;
+}
+
+.btn-transparent:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+/* .btn colors */
+
+
+
+/* port */
+
+#port {
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+/* .port */
+
+
+/* HEADER */
+
+/* port-header */
+#port > #port-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/apple-black-and-white-black-and-white22.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+
+/* port-header nav */
+#port-header .nav {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* port-header nav link */
+#port-header .nav li a {
+    border-radius: 50%;
+    margin: 3px;
+    color: white;
+}
+
+#port-header .nav li a:hover {
+    color: white;
+}
+
+/* port-header nav link icon */
+#port-header .nav .icon {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    background: white;
+    color: #000;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#port-header .nav a:hover .icon {
+    transition: 0.3s;
+    background: black;
+    color: #FFF;
+}
+
+/* port-header texts */
+#port-header .header-title,
+#port-header .header-subtitle,
+#port-header .header-text {
+    padding: 0px 0px;
+    margin: 5px 0px;
+    color: white;
+}
+
+/* port-header header-title */
+#port-header .header-title {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+/* port-header header-subtitle */
+#port-header .header-subtitle {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+/* port-header header-text */
+#port-header .header-text {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* .HEADER */
+
+
+
+/* CONTENT */
+
+/* port-content */
+#port > #port-content {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    z-index: 9999;
+}
+
+#port > #port-content .nav-content {
+    z-index: 9999;
+}
+
+#port > #port-content .content-search-input {
+    width: 500px;
+    border-radius: 5px;
+    border: 0px;
+    background: #F5F5F5;
+    padding: 5px 15px 5px 35px;
+    border: 2px solid transparent;
+    color: #d6d6d6;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#port > #port-content .content-search-input:focus {
+    outline: none;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    color: #969696;
+}
+
+#port > #port-content .content-search-input::placeholder {
+    color: #c7c7c7;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#port > #port-content .content-search {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#port > #port-content .content-search-icon {
+    width: 13px;
+    height: 13px;
+    margin: 0 auto;
+    position: absolute;
+    left: 15px;
+    color: #bababa;
+}
+
+
+
+#port > #port-content .content-title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#port > #port-content .content-title-works{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 50px;
+}
+
+#port > #port-content .content-title-works .link{
+    color: #000;
+    text-decoration: none;
+}
+
+#port > #port-content .content-title-works .link .icon{
+    margin: 0px 5px 1px;
+    font-size: 12px;
+}
+
+#port > #port-content .content-subtitle {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* port-content .row */
+#port-content .row {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+/* port-content .column */
+#port-content .column {
+    padding: 5px;
+}
+
+/* port-content card */
+#port-content .column .card {
+    border: 0px;
+    padding: 0px 0px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    background-color: #000;
+}
+
+/* port-content card img */
+#port-content .column .card .card-img {
+    object-fit: cover;
+    border-radius: 0px;
+    opacity: 1;
+}
+
+/* #port-content card card-body-texts */
+#port-content .column .card .card-body-texts {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(126, 126, 126, 0);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+}
+
+/* port-content card-body-texts img */
+#port-content .column .card .card-body-texts .card-img-texts {
+    width: 50px;
+    height: 50px;
+    background: #FFF;
+    margin: 20px auto 10px auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #888;
+}
+
+/* port-content card-body-texts title */
+#port-content .column .card .card-body-texts .card-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow:1px 1px 1px #000;
+}
+
+/* port-content card-body-texts subtitle */
+#port-content .column .card .card-body-texts .card-subtitle {
+    font-size: 16px;
+    font-weight: 100;
+    text-shadow:1px 1px 1px #000;
+}
+
+
+
+/* port-content card-body */
+#port-content .column .card .card-body {
+    width:100%;
+    height: 100%;
+    background: #FFF;
+    border: 1px solid #ededed;
+    margin: 0 auto;
+    position: absolute;
+    top: 500px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#port-content .column .card:hover .card-body {
+    transition: 0.5s;
+    top: 0px;
+}
+
+/* card-body texts */
+.card-body .card-title,
+.card-body .card-subtitle,
+.card-body .card-text {
+    margin: 5px 0px;
+}
+
+/* port-content card-body title */
+#port-content .column .card .card-body .card-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* port-content card-body subtitle */
+#port-content .column .card .card-body .card-subtitle {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* port-content card-body text */
+#port-content .column .card .card-body .card-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* port-content card nav */
+#port-content .card .nav {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* .CONTENT */
+
+
+/* FOOTER */
+
+#port > #port-footer {
+    width: 100%;
+    padding: 50px 0px 20px;
+    position: relative;
+    background: #FFF;
+    color: #000;
+}
+
+#port > #port-footer .nav-footer {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    background: #FFFFFF;
+}
+
+#port > #port-footer .nav-footer li a {
+    border-radius: 5px;
+    color: #363636;
+    margin: 5px 0px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+#port > #port-footer .nav-footer li a:hover {
+    color: #363636;
+    background: #F5F5F5;
+    margin: 5px 0px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+#port > #port-footer .nav-footer li .nav-icon:hover {
+    color: #363636;
+    background: transparent;
+}
+
+/* .FOOTER */
+
+
+
+@media only screen and (max-width: 1199.98px) {
+
+    /* port-header header-title */
+    #port-header .header-title {
+        font-size: 60px;
+    }
+
+    /* port-header header-subtitle */
+    #port-header .header-subtitle {
+        font-size: 80px;
+        ;
+    }
+
+    /* port-header header-text */
+    #port-header .header-text {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    /* port-header header-title */
+    #port-header .header-title {
+        font-size: 40px;
+    }
+
+    /* port-header header-subtitle */
+    #port-header .header-subtitle {
+        font-size: 55px;
+    }
+
+    /* port-header header-text */
+    #port-header .header-text {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 767.98px) {}
+
+@media only screen and (max-width: 575.98px) {
+
+    #port > #port-content .content-search {
+        width: 100%;
+    }
+
+    #port-content .column {
+        padding: 5px 10px;
+    }
+
+    #port > #port-content .content-search-input {
+        width: 100%;
+    }
+
+    #port-header {
+        text-align: center;
+    }
+
+    /* port-header header-title */
+    #port-header .header-title {
+        font-size: 7vw;
+    }
+
+
+    /* port-header header-subtitle */
+    #port-header .header-subtitle {
+        font-size: 10vw;
+    }
+
+    /* port-header header-text */
+    #port-header .header-text {
+        font-size: 14px;
+    }
+
+    #port > #port-content .content-subtitle {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 100;
+        text-align: center;
+
+    }
+
+    #port > #port-footer .nav-footer .nav-icon {
+        text-align: center;
+    }
+
+}
