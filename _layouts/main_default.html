@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    {% include head.html %}
+
+<body id="main">
+
+  
+
+    <main id="wrapper-flex">
+
+        {% include sidebar.html %}
+
+        <main id="content">
+
+            <nav id="navbar" class="navbar navbar-expand bg-white sticky-top">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link btn-toggle active-no-rotate"><i class="icon fas fa-arrow-left"></i></a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <section class="content">
+
+                <div class="container-fluid">
+
+                    {{ content }}
+                    
+                </div>
+                
+            </section>
+
+        </main>
+
+    
+    </main>
+
+</body>
+
+</html>

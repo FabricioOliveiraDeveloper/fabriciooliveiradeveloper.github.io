@@ -1,0 +1,53 @@
+  
+
+    <main id="content">
+
+            <section class="content">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+
+{% if site.projetcs.size == 0 %}
+
+<h2> Not Post found </h2>
+
+{% else %}
+
+{% for project in site.projects %}
+                         <div class="column col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+
+<a href="{{ project.title }}" target="_blank">
+                            <div class="card">
+                                <img class="card-img" src="{{ project.image }}" />
+
+                                <div class="card-icon-body">
+
+                                    <img class="card-img-icon logo-icon" src="{{ project.icon }}" />
+                                    
+                                    <img class="card-img-icon click-icon" src="../../dist/images/logos/logo-click.png" />
+
+                                </div>
+
+                            </div>
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">{{ project.title }}</h5>
+
+                                <p class="card-text">{{ project.subtitle }}</p>
+
+                            </div>
+                        </a>
+
+                        </div>
+
+{% endfor %}
+{% endif %}
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
