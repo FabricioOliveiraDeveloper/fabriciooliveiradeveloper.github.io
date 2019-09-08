@@ -186,7 +186,7 @@ html {
 }
 
 .content {
-    padding: 50px;
+    padding: 0px;
 }
 
 #content .container-fluid {
@@ -356,9 +356,6 @@ html {
 
     .perfil {
         margin-top: 50px;
-    }
-    .content{
-        padding: 10px;
     }
     
 }
