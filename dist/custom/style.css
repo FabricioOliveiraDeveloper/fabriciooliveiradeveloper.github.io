@@ -357,4 +357,8 @@ html {
     .perfil {
         margin-top: 50px;
     }
+    .content{
+        padding: 10px;
+    }
+    
 }
