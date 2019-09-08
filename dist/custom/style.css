@@ -186,7 +186,7 @@ html {
 }
 
 .content {
-    padding: 0px;
+    padding: 50px 20px;
 }
 
 #content .container-fluid {
@@ -268,8 +268,8 @@ html {
     transition: 0.3s;
 }
 
-#content .column a{
-    text-decoration:none;
+#content .column a {
+    text-decoration: none;
 }
 
 #content .card .card-img {
@@ -317,7 +317,7 @@ html {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    color:#000;
+    color: #000;
 }
 
 #content .card-body .card-text {
@@ -327,12 +327,16 @@ html {
     font-size: 16px;
     font-weight: lighter;
     text-transform: capitalize;
-    color:#000;
+    color: #000;
 }
 
 
 
 @media only screen and (max-width: 1000px) {
+
+    .content {
+        padding: 50px 0px;
+    }
 
     #sidebar {
         position: fixed;
@@ -357,5 +361,5 @@ html {
     .perfil {
         margin-top: 50px;
     }
-    
+
 }
