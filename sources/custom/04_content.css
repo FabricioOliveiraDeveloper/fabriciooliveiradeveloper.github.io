@@ -1,0 +1,148 @@
+/* FABRICIO OLIVEIRA */
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+}
+
+.content-title{
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+}
+
+.port-box{
+    padding: 0px 0px;
+    columns: 3;
+    grid-gap: 10px;
+}
+
+.card-port{
+    border: 1px solid #1c1c1c;
+    margin-bottom:10px;
+    padding: 10px;
+    break-inside: avoid;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.card-port:hover{
+    transform: scale(0.95);
+}
+
+.card-port-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-port-link:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-img{
+    width: 50px;
+    height: 50px;
+    margin: 10px auto 20px;
+    display: block;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.card-info{
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.badge-box{
+    padding: 20px 2px 10px 2px;
+    text-align: center;
+}
+
+.badge{
+    width: auto;
+    display: inline-block;
+    border: 1px solid #1c1c1c;
+    font-size: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 5px 10px 6px 10px;
+    border-radius: 100px;
+}
+
+#contato{
+    background-color: rgb(40, 67, 146);
+}
+
+
+#contato .card{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 30px;
+    opacity: 0.8;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+
+#contato .card:hover{
+    transform: scale(0.95);
+}
+
+#contato .card .card-icon{
+    padding: 20px 0px 0px 0px;
+    font-size: 60px;
+    margin: 0 auto;
+    display: block;
+    opacity: 1;
+}
+
+#contato .card .card-title{
+    text-transform: capitalize;
+}
+
+#contato .card .card-body{
+    padding: 20px 0px 5px 0px;
+}
+
+
+#footer{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+
+    .port-box{
+        padding: 0px 0px;
+        columns: 2;
+        grid-gap: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px){
+
+    .port-box{
+        padding: 0px 0px;
+        columns: 1;
+        grid-gap: 10px;
+    }
+
+}
