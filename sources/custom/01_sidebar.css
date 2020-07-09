@@ -2,7 +2,7 @@
 
 /* sidebar */
 #main-sidebar{
-    width: 250px;
+    width: 40vh;
     height: 100vh;
     position: relative;
     background-color: var(--sidebar);
@@ -15,7 +15,7 @@
 
 /* side-menu */
 .side-menu{
-    width: 250px;
+    width: 40vh;
     height: 100vh;
     position: relative;
     transition: opacity 0.5s;
