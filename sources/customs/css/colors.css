@@ -2,13 +2,13 @@
 
 :root{
 
-    --main: #F5F5F5;
-    --main-color: #000000;
+    --main:  linear-gradient(to left bottom, #203e74, #2f3c73, #3b3a72, #453870, #4e366d);
+    --main-color: white;
 
-    --sidebar: #FFFFFF;
-    --sidebar-color: #000000;
+    --sidebar: transparent;
+    --sidebar-color: white;
 
-    --content-info: linear-gradient(to left bottom, #203e74, #2f3c73, #3b3a72, #453870, #4e366d);
+    --content-info: transparent;
     --content-info-color: #FFFFFF;
 
 }
