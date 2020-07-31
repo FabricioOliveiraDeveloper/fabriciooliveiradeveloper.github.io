@@ -1,0 +1,32 @@
+/* CSS - Document - Fabricio Oliveira */
+
+/* frameworks */
+
+    /* bootstrap */
+    @import url(../../frameworks/bootstrap/css/bootstrap.css);
+
+    /* fontawesome */
+    @import url(../../frameworks/fontawesome/css/all.css);
+
+/* frameworks */
+
+
+/* custom */
+
+    /* colors */
+    @import url(colors.css);
+
+    /* config */
+    @import url(config.css);
+
+    /* sidebar */
+    @import url(01_sidebar.css);
+
+    /* content*/
+    @import url(02_content.css);
+
+    /* header*/
+    @import url(03_header.css);
+
+
+/* custom */
