@@ -1,0 +1,184 @@
+/* Fabricio Oliveira */
+
+/* navbar */
+#navbar{
+    width: 100%;
+    background: var(--navbar);
+    color: var(--navbar-color);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid #ededed;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+/* nav-logo */
+.nav-logo{
+    width: 35px;
+    height: 35px;
+    display: block;
+    object-fit: cover;
+}
+
+/* nav-box */
+.nav-box{
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+/* nav-menu */
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    align-content: flex-end;
+}
+
+/* nav-list */
+.nav-list{
+    width: auto;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+/* nav-separator */
+.nav-separator{
+    width: 1px;
+    height: 20px;
+    background-color: #dedede;
+    padding: 0px 0px;
+    margin: 0px 5px;
+}
+
+/* nav-item */
+.nav-item{
+    display: inline-block;
+}
+
+/* nav-link */
+.nav-link{
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: inherit;
+    transition: opacity 0.3s;
+}
+
+/* nav-link hover */
+.nav-link:hover{
+    color: inherit;
+    opacity: 0.5;
+}
+
+/* nav-check */
+#nav-check{
+    display: none;
+}
+
+/* nav-toggle-bg */
+.nav-toggle-bg{
+    width: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.192);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+/* nav-toggle */
+.nav-toggle{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    display: none;
+}
+
+/* nav-toggle-icon */
+.nav-toggle-icon{
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px;
+    padding: 15px;
+    color: #919191;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 900px){
+
+    /* nav-separator */
+    .nav-separator{
+        width: 90%;
+        height: 0.1px;
+        margin-top: auto;
+    }
+
+    /* nav-menu */
+    .nav-menu{
+        width: 0px;
+        height: 100vh;
+        background: white;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-end;
+        overflow-x: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: width 0.5s;
+    }
+
+    /* nav-list */
+    .nav-list{
+        padding: 20px 0px;
+        display: block;
+        margin-right: auto;
+    }
+
+    /* nav-list-social */
+    .nav-list-social{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* nav-item */
+    .nav-item{
+        display: block;
+    }
+
+    /* nav-link */
+    .nav-link{
+        padding: 20px 40px;
+    }
+
+    /* nav-check */
+    #nav-check:checked ~ .nav-menu{
+        width: 280px;
+    }
+
+    /* nav-check */
+    #nav-check:checked ~ .nav-toggle-bg{
+        width: 100%;
+        opacity: 1;
+    }
+
+    /* nav-toggle */
+    .nav-toggle{
+        display: block;
+    }
+
+}

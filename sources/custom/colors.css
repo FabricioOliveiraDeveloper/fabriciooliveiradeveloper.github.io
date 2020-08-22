@@ -1,0 +1,19 @@
+/* Fabricio Oliveira */
+
+:root{
+
+    /* body */
+    --body: white;
+    
+    /* navbar */
+    --navbar: white;
+    --navbar-color: black;
+
+    /* section */
+    --section: white;
+
+    /* footer */
+    --footer: royalblue;
+    --footer-color: white;
+
+}

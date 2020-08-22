@@ -1,380 +1,621 @@
-<!-- 
-    
-        HTML - Document 
-
-        Portfólio - template
-
-        Fabricio Oliveira 
-
-        Web Developer - Front End
-
--->
-
 <!DOCTYPE html>
-
-<html lang="pt-br" template="Fabricio Oliveira">
+<html lang="pt-br">
 
 <head>
 
-    <!-- codificação de caracteres -->
     <meta charset="UTF-8">
 
-    <!-- visualização em escala -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- cor do tema -->
-    <meta name="theme-color" content="royalblue">
-
-    <!-- main css -->
-    <link rel="stylesheet" href="sources/customs/css/main.css">
-
     <!-- favicon -->
-    <link rel="shortcut icon" href="sources/images/logos/transparent.png" type="image/x-icon">
+    <link rel="shortcut icon" href="sources/images/logos/Colored.png" type="image/x-icon">
 
-    <!-- título da página -->
-    <title>Fabricio Oliveira</title>
+    <!-- import css -->
+    <link rel="stylesheet" href="sources/custom/import.css">
+
+    <title>Fabricio Oliveira - Portfólio</title>
 
 </head>
 
 <body>
 
 
-    <!-- main -->
-    <main id="main">
+
+    <!-- navbar -->
+    <nav id="navbar">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- nav-box -->
+            <div class="nav-box">
+
+                <!-- nav-check -->
+                <input type="checkbox" name="nav-check" id="nav-check">
+
+                <label for="nav-check" class="nav-toggle-bg">
+                </label>
 
 
-        <!-- sidebar -->
-        <aside id="sidebar">
-
-            <!-- sidebar-box -->
-            <div class="side-box">
-
-                <!-- side-brand -->
-                <a href="#header" class="side-brand">
-                    <!-- side-logo -->
-                    <img src="sources/images/logos/square.png" alt="" class="side-logo">
+                <!-- nav-brand -->
+                <a href="#" class="nav-brand">
+                    <img src="sources/images/logos/Colored.png" alt="" class="nav-logo">
                 </a>
-                <!-- /side-brand -->
 
+                <!-- nav-toggle -->
+                <label for="nav-check" class="nav-toggle">
+                    <i class="fas fa-bars nav-toggle-icon"></i>
+                </label>
+                <!-- /nav-toggle -->
 
-                <!-- side-list -->
-                <ul class="side-list">
+                <!-- nav-menu -->
+                <div class="nav-menu">
 
-                    <!-- side-item -->
-                    <li class="side-item">
+                    <!-- nav-list -->
+                    <ul class="nav-list">
 
-                        <!-- side-link -->
-                        <a href="#header" class="side-link">Home</a>
+                        <!-- nav-item -->
+                        <li class="nav-item">
+                            <!-- nav-link -->
+                            <a href="#header" class="nav-link">Home</a>
+                        </li>
 
-                    </li>
-                    <!-- /side-item -->
+                        <!-- nav-item -->
+                        <li class="nav-item">
+                            <!-- nav-link -->
+                            <a href="#section-portfolio" class="nav-link">Portfólio</a>
+                        </li>
 
-                    <!-- side-item -->
-                    <li class="side-item">
+                        <!-- nav-item -->
+                        <li class="nav-item">
+                            <!-- nav-link -->
+                            <a href="#section-contato" class="nav-link">Contato</a>
+                        </li>
 
-                        <!-- side-link -->
-                        <a href="#" class="side-link">Portfólio</a>
+                        <!-- nav-item -->
+                        <li class="nav-item">
+                            <!-- nav-link -->
+                            <a href="#" class="nav-link">Sobre</a>
+                        </li>
 
-                    </li>
-                    <!-- /side-item -->
-
-                    <!-- side-item -->
-                    <li class="side-item">
-
-                        <!-- side-link -->
-                        <a href="#" class="side-link">Contato</a>
-
-                    </li>
-                    <!-- /side-item -->
-
-                    <!-- side-item -->
-                    <li class="side-item">
-
-                        <!-- side-link -->
-                        <a href="#" class="side-link">Sobre</a>
-
-                    </li>
-                    <!-- /side-item -->
-
-                </ul>
-                <!-- /side-list -->
-
-            </div>
-            <!-- /sidebar-box -->
-
-        </aside>
-        <!-- /sidebar -->
-
-
-
-        <!-- content -->
-        <section id="content">
-
-            <!-- content-box -->
-            <div class="content-box">
-
-                <!-- header -->
-                <header id="header">
-
-                    <!-- header-box -->
-                    <div class="header-box">
-
-                        <!-- container -->
-                        <div class="container-fluid">
-
-                            <!-- row -->
-                            <div class="row justify-content-center">
-
-                                <!-- column -->
-                                <div class="col-md-8">
-
-                                    <!-- info -->
-                                    <h5 class="header-info">
-                                        Web Developer - Front End
-                                    </h5>
-
-                                    <!-- title -->
-                                    <h1 class="header-title">
-                                        Fabricio Oliveira
-                                    </h1>
-
-                                    <!-- text -->
-                                    <p class="header-text">
-                                        Realizo as interfaces de projetos web,
-                                        deixando que proporcionem um visual
-                                        agradavél e organizado para os usuários.
-                                    </p>
-
-                                    <!-- header-nav -->
-                                    <ul class="header-nav">
-
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">
-                                                <i class="nav-icon fab fa-facebook-square"></i>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">
-                                                <i class="nav-icon fab fa-instagram"></i>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">
-                                                <i class="nav-icon fab fa-youtube"></i>
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">
-                                                <i class="nav-icon fab fa-github"></i>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                    <!-- header-nav -->
-
-                                </div>
-                                <!-- /column -->
-
-                            </div>
-                            <!-- /row -->
-
-                            <a href="#content-info" class="header-btn">
-                                <i class="fas fa-chevron-down"></i>
-                            </a>
-
-                        </div>
-                        <!-- /container -->
-
-                    </div>
-                    <!-- /header-box -->
-
-                </header>
-                <!-- /header -->
-
-                <!-- content-info-->
-                <section id="content-info" class="content content-info">
-
-                    <ul class="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
                     </ul>
+                    <!-- /nav-list -->
 
-                    <!-- container-fluid -->
-                    <div class="container-fluid">
+                    <hr class="nav-separator">
 
-                        <!-- row -->
-                        <div class="row justify-content-center text-center mb-5">
+                    <!-- nav-list -->
+                    <ul class="nav-list nav-list-social">
 
-                            <!-- column -->
-                            <div class="col-md-6">
+                        <!-- nav-item -->
+                        <li class="nav-item">
+                            <!-- nav-link -->
+                            <a href="#header" class="nav-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
 
-                                <h5 class="content-title">
-                                    O que eu faço ?
-                                </h5>
+                        <!-- nav-item -->
+                        <li class="nav-item">
+                            <!-- nav-link -->
+                            <a href="#section-portfolio" class="nav-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
 
-                                <p class="content-text">
-                                    &emsp; Praticamente realizo a interface web, somente a
-                                    parte visual, utilizando algumas linguagens como,
-                                    HTML, CSS, JavaScript, Jquery entre outros.
-                                </p>
+                        <!-- nav-item -->
+                        <li class="nav-item">
+                            <!-- nav-link -->
+                            <a href="#" class="nav-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
 
-                            </div>
-                            <!-- /column -->
+                    </ul>
+                    <!-- /nav-list -->
 
-                        </div>
-                        <!-- /row -->
-
-
-                        <!-- row -->
-                        <div class="row justify-content-center">
-
-                            <!-- column -->
-                            <div class="col-md-1 col-1">
-
-                                <div class="content-line-info">
-
-                                </div>
-
-                            </div>
-                            <!-- column -->
-
-                            <!-- column -->
-                            <div class="col-md-4 col-11 py-4">
-
-                                <div class="card">
-
-                                    <div class="card-body">
-
-                                        <h5 class="card-title">
-                                            Web Designer
-                                        </h5>
-
-                                        <p class="card-text">
-                                            Interfaces de usuário
-                                            utilizando ferramentas de UI,
-                                            para realização dos projetos.
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <!-- column -->
-
-
-                        </div>
-                        <!-- /row -->
-
-                        <!-- row -->
-                        <div class="row justify-content-center">
-
-                            <!-- column -->
-                            <div class="col-md-1 col-1">
-
-                                <div class="content-line-info">
-
-                                </div>
-
-                            </div>
-                            <!-- column -->
-
-                            <!-- column -->
-                            <div class="col-md-4 col-11 py-4">
-
-                                <div class="card">
-
-                                    <div class="card-body">
-
-                                        <h5 class="card-title">
-                                            Front End
-                                        </h5>
-
-                                        <p class="card-text">
-                                            Criação de WebSite
-                                            estático apartir de um projeto
-                                            utilizando códigos de marcação.
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <!-- column -->
-
-
-                        </div>
-                        <!-- /row -->
-
-
-                        <!-- row -->
-                        <div class="row justify-content-center">
-
-                            <!-- column -->
-                            <div class="col-md-1 col-1">
-
-                                <div class="content-line-info">
-
-                                </div>
-
-                            </div>
-                            <!-- column -->
-
-                            <!-- column -->
-                            <div class="col-md-4 col-11 py-4">
-
-                                <div class="card">
-
-                                    <div class="card-body">
-
-                                        <h5 class="card-title">
-                                            Designer Gráfico
-                                        </h5>
-
-                                        <p class="card-text">
-                                            Manipulação de imagens,
-                                            rascunhos de wireframes, para websites.
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <!-- column -->
-
-
-                        </div>
-                        <!-- /row -->
-
-
-                    </div>
-                    <!-- c/ontainer-fluid -->
-
-                </section>
-                <!-- /content-info -->
+                </div>
+                <!-- /nav-menu -->
 
             </div>
-            <!-- /content-box -->
+            <!-- /nav-box -->
 
-        </section>
-        <!-- /content -->
+        </div>
+        <!-- /container -->
+
+    </nav>
+    <!-- /navbar -->
 
 
-    </main>
-    <!-- /main -->
+
+    <!-- header -->
+    <header id="header">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- header-box -->
+            <div class="header-box">
+
+                <!-- row -->
+                <div class="row justify-content-end">
+
+                    <!-- column -->
+                    <div class="col-lg-6">
+
+                        <h5 class="header-info">
+                            Olá, eu me chamo
+                        </h5>
+
+                        <h5 class="header-title">
+                            Fabricio Oliveira.
+                        </h5>
+
+                        <p class="header-text">
+                            Sou desenvolvedor front-end.
+                            Realizo as interfaces de projetos web,
+                            deixando que proporcionem um visual
+                            agradável e organizado para os usuários.
+                        </p>
+
+                        <a href="#" class="btn header-btn mt-4">Saiba Mais</a>
+
+                    </div>
+                    <!-- /column -->
+
+                </div>
+                <!-- /row -->
+
+                <a href="#section-introduction" class="header-btn-down">
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+
+            </div>
+            <!-- /header-box -->
+
+        </div>
+        <!-- /container -->
+
+    </header>
+    <!-- /header -->
+
+
+
+    <!-- section -->
+    <section id="section" class="section-introduction">
+
+        <!-- container -->
+        <div class="container" id="section-introduction">
+
+            <!-- section-texts -->
+            <div class="section-texts">
+
+                <!-- section-title -->
+                <h5 class="section-title">
+                    O que eu faço ?
+                </h5>
+
+                <!-- section-info -->
+                <p class="section-text">
+                    Front End, Protótipos, Design...
+                </p>
+
+            </div>
+            <!-- /section-texts -->
+
+            <!-- row -->
+            <div class="row justify-content-center mt-5">
+
+                <!-- column -->
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Front-End
+                            </h5>
+
+                            <p class="card-text">
+                                Criação de WebSite estático apartir
+                                de um projeto utilizando códigos de marcação.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /column -->
+
+                <!-- column -->
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Protótipo
+                            </h5>
+
+                            <p class="card-text">
+                                Interfaces de usuário utilizando
+                                ferramentas de UI, para realização dos projetos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /column -->
+
+                <!-- column -->
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Web Design
+                            </h5>
+
+                            <p class="card-text">
+                                Interfaces de usuário utilizando
+                                ferramentas de UI, para realização dos projetos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /column -->
+
+            </div>
+            <!-- /row -->
+
+        </div>
+        <!-- container -->
+
+    </section>
+    <!-- /section -->
+
+
+
+    <!-- section -->
+    <section id="section" class="section-portfolio">
+
+        <!-- container -->
+        <div class="container" id="section-portfolio">
+
+            <div class="section-texts">
+
+                <!-- section-title -->
+                <h5 class="section-title">
+                    Portfólio
+                </h5>
+
+                <!-- section-info -->
+                <p class="section-text">
+                    Meus trabalhos realizados com muito carinho !
+                </p>
+
+            </div>
+
+
+            <!-- row -->
+            <div class="row mt-5 py-3">
+
+                <!-- column -->
+                <div class="column col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-img -->
+                        <img src="sources/images/works/clickdroid-image.png" alt="" class="card-img">
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                ClickDroid
+                            </h5>
+
+                            <p class="card-text">
+                                WebSite - Download de Apks
+                            </p>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+
+                <!-- column -->
+                <div class="column col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-img -->
+                        <img src="sources/images/works/fashionstore-image.png" alt="" class="card-img">
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                FashionStore
+                            </h5>
+
+                            <p class="card-text">
+                                WebSite - E-commerce
+                            </p>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+
+                <!-- column -->
+                <div class="column col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-img -->
+                        <img src="sources/images/works/smartshop-image.png" alt="" class="card-img">
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                ClickDroid
+                            </h5>
+
+                            <p class="card-text">
+                                WebSite - Loja Virtual
+                            </p>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+                <!-- column -->
+                <div class="column col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-img -->
+                        <img src="sources/images/works/spotify-clone-image.png" alt="" class="card-img">
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Spotify Clone
+                            </h5>
+
+                            <p class="card-text">
+                                WebSite - Música para todos
+                            </p>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+                <!-- column -->
+                <div class="column col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-img -->
+                        <img src="sources/images/works/beleza-natural.png" alt="" class="card-img">
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Beleza Natural
+                            </h5>
+
+                            <p class="card-text">
+                                Prótotipo - Loja Virtual
+                            </p>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+            </div>
+            <!-- /row -->
+
+        </div>
+        <!-- container -->
+
+    </section>
+    <!-- /section -->
+
+
+
+    <!-- section -->
+    <section id="section" class="section-contato">
+
+        <!-- container -->
+        <div class="container" id="section-contato">
+
+            <div class="section-texts">
+
+                <!-- section-title -->
+                <h5 class="section-title">
+                    Contato
+                </h5>
+
+                <!-- section-info -->
+                <p class="section-text">
+                    Entre em contato, podemos bater um papo !
+                </p>
+
+            </div>
+
+            <!-- row -->
+            <div class="row justify-content-center mt-5 py-5">
+
+                <!-- column -->
+                <div class="col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-icon -->
+                        <i class="card-icon fab fa-facebook"></i>
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Facebook
+                            </h5>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+                <!-- column -->
+                <div class="col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-icon -->
+                        <i class="card-icon fab fa-instagram"></i>
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Instagram
+                            </h5>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+                <!-- column -->
+                <div class="col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-icon -->
+                        <i class="card-icon fab fa-github"></i>
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                GitHub
+                            </h5>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+                <!-- column -->
+                <div class="col-md-3 col-6">
+
+                    <!-- card -->
+                    <a class="card" href="#">
+
+                        <!-- card-icon -->
+                        <i class="card-icon fas fa-phone"></i>
+
+                        <!-- card-body -->
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                11 98170-7508
+                            </h5>
+
+                        </div>
+                        <!-- /card-body -->
+
+                    </a>
+                    <!-- /card -->
+
+                </div>
+                <!-- /column -->
+
+
+            </div>
+            <!-- /row -->
+
+        </div>
+        <!-- container -->
+
+    </section>
+    <!-- section -->
+
+
+
+    <!-- footer -->
+    <footer id="footer">
+        
+        <!-- container -->
+        <div class="container">
+
+            <p class="footer-text">Fabricio Oliveira - Portfólio 2020</p>
+
+        </div>
+        <!-- container -->
+        
+    </footer>
+    <!-- /footer -->
+
 
 
 </body>
