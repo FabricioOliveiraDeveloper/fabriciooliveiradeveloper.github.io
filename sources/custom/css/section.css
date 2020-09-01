@@ -1,0 +1,231 @@
+/* Fabricio Oliveira */
+
+/* section-wallpaper */
+.section-wallpaper{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* section-box */
+.section-box{
+    position: relative;
+    padding: 100px 0px;
+    z-index: 2;
+}
+
+/* section-texts */
+.section-texts{
+    padding: 0px 0px 50px 0px;
+}
+
+/* section-title */
+.section-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+/* section-text */
+.section-text{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+/* section-intro-card */
+.section-introduction .card{
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #dedede;
+    text-align: center;
+}
+
+/* section-intro-card-title */
+.section-introduction .card-title{
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* section-intro-card-text */
+.section-introduction .card-text{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    text-align: left;
+}
+
+
+/* section-creative */
+.section-creative{
+    background-color: #ffffff34;
+    backdrop-filter: blur(0px);
+}
+
+/* section-creative-text */
+.section-creative .text{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.section-work{
+    background: white;
+}
+
+.section-work-content{
+    border-radius: 5px;
+    position: relative;
+}
+
+.section-work .card{
+    background: none;
+    border: 0px;
+}
+
+.section-work .card-body{
+    padding: 20px 10px;
+}
+
+.section-work .card-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-work .card .card-img{
+    border-radius: 10px;
+}
+
+.section-work .card .card-title{
+    font-size: 16px;
+}
+
+.section-work .card .card-text{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+@media only screen and (max-width: 1200px){
+
+    /* section-title */
+    .section-title{
+        font-size: 30px;
+    }
+
+    /* section-text */
+    .section-text{
+        font-size: 18px;
+    }
+
+    /* section-intro-card-title */
+    .section-introduction .card-title{
+        font-size: 18px;
+    }
+
+    /* section-intro-card-text */
+    .section-introduction .card-text{
+        font-size: 16px;
+    }
+
+    /* section-creative-text */
+    .section-creative .text{
+        font-size: 18px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+
+    /* section-title */
+    .section-title{
+        font-size: 25px;
+    }
+
+    /* section-text */
+    .section-text{
+        font-size: 16px;
+    }
+
+    /* section-intro-card-title */
+    .section-introduction .card-title{
+        font-size: 16px;
+    }
+
+    /* section-intro-card-text */
+    .section-introduction .card-text{
+        font-size: 14px;
+    }
+
+    /* section-creative-text */
+    .section-creative .text{
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+    /* section-work */
+    .section-box, .section-work{
+        padding: 0px 0px;
+    }
+
+    /* section-texts */
+    .section-texts{
+        padding: 0px 0px 50px 0px;
+        text-align: center;
+    }
+
+
+    /* section-title */
+    .section-title{
+        font-size: 20px;
+    }
+
+    /* section-text */
+    .section-text{
+        font-size: 14px;
+    }
+
+    /* section-intro-card */
+    .section-introduction .card{
+        margin-bottom: 30px;
+    }
+
+    /* section-intro-card-title */
+    .section-introduction .card-title{
+        font-size: 16px;
+    }
+
+    /* section-intro-card-text */
+    .section-introduction .card-text{
+        font-size: 14px;
+    }
+
+    /* section-creative-text */
+    .section-creative .text{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+
+
+}

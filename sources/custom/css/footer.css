@@ -1,0 +1,89 @@
+/* Fabricio Oliveira */
+
+#footer{
+    position: relative;
+}
+
+.footer-box{
+    background: rgb(50, 85, 187);
+    padding: 80px 0px 80px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-box .card{
+    border-radius: 10px;
+    background: transparent;
+    padding: 25px 10px;
+    text-align: center;
+    border: 0px;
+    color: white;
+    opacity: 0.8;
+}
+
+.footer-box .card-icon{
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.footer-box .card .card-body{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.footer-box .card-body .card-title{
+    font-size: 16px;
+    font-weight: 100px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.footer-copy{
+    background: rgb(42, 70, 156);
+    position: sticky;
+    bottom: 0px;
+    z-index: -1;
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    margin: 0px 0px;
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .footer-box .card-body .card-title{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+
+    .footer-box{
+        background: rgb(50, 85, 187);
+        padding: 50px 0px 50px 0px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .footer-box .card-body .card-title{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 780px){
+
+    .footer-box .card .card-body{
+        display: none;
+    }
+
+    .footer-box .card-icon{
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+}

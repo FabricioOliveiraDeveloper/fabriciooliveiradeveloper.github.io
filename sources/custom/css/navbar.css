@@ -1,0 +1,215 @@
+/* Fabricio Oliveira */
+
+/* navbar */
+#navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    transition: background 0.2s, color 0.2s, padding 0.2s;
+}
+
+/* navbar-default */
+.navbar-default{
+    padding: 20px 0px;
+    background-color: transparent;
+}
+
+/* navbar-scroll */
+.navbar-scroll{
+    padding: 20px 0px;
+    background-color: #ffffff;
+}
+
+/* nav-separator */
+.nav-separator{
+    width: 1px;
+    height: 25px;
+    background: #dedede;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+}
+
+/* nav-box */
+.nav-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav-brand */
+.nav-brand{
+    color: inherit;
+    margin-right: auto;
+}
+
+/* nav-logo */
+.nav-logo{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+/* nav-menu */
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* nav-list */
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+    padding: 5px 0px;
+}
+
+/* nav-item */
+.nav-item{
+    display: inline;
+}
+
+/* nav-link */
+.nav-link{
+    color: inherit;
+    font-weight: 100;
+    font-size: 16;
+    transition: opacity 0.3s;
+}
+
+/* nav-link - hover */
+.nav-link:hover{
+    color: inherit;
+    opacity: 0.5;
+}
+
+/* nav-link-social */
+.nav-link-social{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+/* nav-icon */
+.nav-icon-name{
+    width: auto;
+    display: block;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+/* nav-icon-name */
+.nav-icon-name{
+    display: none;
+}
+
+/* nav-toggle-bg */
+.nav-toggle-bg{
+    width: 0;
+    height: 100vh;
+    background: black;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* nav-check */
+#nav-check{
+    display: none;
+}
+
+/* nav-toggle */
+.nav-toggle{
+    width: 40px;
+    height: 40px;
+    background: white;
+    display: none;
+    margin: 0px 0px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+
+
+@media only screen and (max-width: 900px){
+
+    #nav-check:checked ~ .nav-menu{
+        width: 250px;
+    }
+
+    .nav-toggle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* navbar-default */
+    .navbar-default{
+        padding: 15px 0px;
+        background-color: transparent;
+    }
+
+    /* navbar-scroll */
+    .navbar-scroll{
+        padding: 10px 0px;
+        background-color: #ffffff;
+    }
+
+    /* nav-separator */
+    .nav-separator{
+        width: 200px;
+        height: 1px;
+        background: #dedede;
+        margin: 20px auto;
+        padding: 0px 0px;
+        border: none;
+    }
+
+    /* nav-box */
+    .nav-box .nav-list .nav-menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* nav-menu */
+    .nav-menu{
+        width: 0px;
+        height: 100vh;
+        overflow: hidden;
+        background-color: var(--navbar);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: width 0.5s;
+    }
+
+    /* nav-list */
+    .nav-list{
+        flex-direction: column;
+    }
+
+    /* nav-link */
+    .nav-link{
+        padding: 15px 40px;
+        text-align: left;
+    }
+
+    /* nav-icon-name */
+    .nav-icon-name{
+        display: block;
+    }
+
+}
