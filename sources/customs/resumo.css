@@ -1,0 +1,113 @@
+/* Fabricio Oliveira */
+
+/* resumo-info */
+.resumo-info{
+    color: var(--color-07);
+    transition: color 0.5s;
+    cursor: default;
+}
+
+/* resumoinfo - hover *
+.resumo-info:hover{
+    color: var(--color-07);
+}
+
+/* resumo-data */
+.resumo-data{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 20px;
+    transition: left 0.5s;
+}
+
+/* resumo-data - hover */
+.resumo-info:hover .resumo-data{
+    left: 5px;
+}
+
+/* resumo-line */
+.resumo-line{
+    width: 5px;
+    height: 100%;
+    background-color: var(--color-05);
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* resumo-circle */
+.resumo-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: var(--color-03);
+    box-shadow:
+    0 0 0 4px var(--color-03),
+    0 0 0 8px var(--color-05);
+    margin: 0 auto;
+    position: relative;
+    right: 8px;
+    transition: background 0.5s;
+}
+
+
+/* resumo-circle - hover */
+.resumo-info:hover .resumo-circle{
+    background-color: var(--color-05);
+}
+
+
+/* resumo-card */
+.resumo-info .card{
+    background: var(--color-03);
+    border: 0px;
+    transition: background 0.5s;
+}
+
+/* resumo-card */
+.resumo-info:hover .card{
+    background: var(--color-04);
+}
+
+
+/* resumo-card-title */
+.resumo-info .card .card-title{
+    font-size: 18px;
+    font-weight: 200px;
+}
+
+/* resumo-card-text */
+.resumo-info .card-body .card-text{
+    font-size: 13px;
+    font-weight: 100px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.resumo-text{
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 500px){
+
+    /* resumo-circle */
+    .resumo-circle{
+        width: 10px;
+        height: 10px;
+        right: 3px;
+    }
+
+}

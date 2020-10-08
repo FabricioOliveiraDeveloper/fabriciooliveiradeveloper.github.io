@@ -1,0 +1,42 @@
+/* Fabricio Oliveira */
+
+:root{
+
+
+    /* paleta de cores */
+    --color-01: #000000;
+    --color-02: #FFFFFF;
+    --color-03: #090a20;
+    --color-04: #0c0e2e;
+    --color-05: #151957;
+    --color-06: #393c8f;
+    --color-07: #858adb;
+
+
+    /* body */
+    --body: var(--color-03);
+
+
+    /* sidebar */
+    --sidebar: var(--color-04);
+    --side-title: var(--color-07);
+    --sidebar-text: var(--color-02);
+    --side-list: var(--color-07);
+    
+
+    /* header */
+    --header: var(--color-02);
+    --header-hellow: var(--color-05);
+    --header-name: var(--color-07);
+    --header-text: var(--color-06);
+    --header-link: var(--color-05);
+
+
+    /* content */
+    --content: var(--color-03);
+    --content-card: var(--color-04);
+    --card-title: var(--color-07);
+    --card-subtitle: #4a4c80;
+
+
+}

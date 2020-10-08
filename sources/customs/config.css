@@ -1,0 +1,67 @@
+/* Fabricio Oliveira */
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* body */
+body{
+    width: 100%;
+    background: var(--body);
+    font-family: Poppins;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/* grid-layout */
+
+/* main */
+#main{
+    display: grid;
+    grid-template-areas: "sidebar section";
+    grid-template-columns: 1fr 3.3fr;
+}
+
+#aside{
+    grid-area: sidebar;
+    overflow: auto;
+}
+
+#section{
+    grid-area: section;
+    overflow: auto;
+}
+
+/* grid-layout */
+
+
+@media only screen and (max-width: 1200px){
+    
+
+    /* grid-layout */
+
+        /* main */
+        #main{
+            display: block;
+            overflow: auto;
+        }
+
+        #aside{
+            width: 100%;
+            position: fixed;
+            z-index: 999;
+        }
+
+        #section{
+            width: 100%;
+            position: relative;
+        }
+
+    /* grid-layout */
+
+}
