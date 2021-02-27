@@ -1,392 +1,298 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 
 <head>
 
-    <!-- charset -->
+    <!-- charset utf-8 -->
     <meta charset="UTF-8">
+
+    <!-- theme-color -->
+    <meta name="theme-color" content="#0c0d29">
 
     <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="theme-color" content="#0c0e2e">
-
     <!-- favicon -->
-    <link rel="shortcut icon" href="sources/images/logos/transparent.png" type="image/x-icon">
-
-    <!-- animate js -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="shortcut icon" href="sources/images/logos/Logo.png" type="image/x-icon">
 
     <!-- import css -->
-    <link rel="stylesheet" href="sources/customs/import.css">
+    <link rel="stylesheet" href="sources/styles/import.css">
 
     <!-- title -->
-    <title>Fabricio Oliveira - Portfólio</title>
+    <title>Fabricio Oliveira</title>
 
 </head>
 
-<body class="animated fadeIn fastSlow">
-
-
+<body>
 
     <!-- main -->
     <main id="main">
 
 
-        <!-- sidebar -->
-        <aside id="sidebar">
+        <!-- aside -->
+        <aside id="aside">
 
-            <!-- sidebar-box -->
-            <div class="side-box">
+            <!-- nav-chk -->
+            <input type="checkbox" name="nav-chk" id="nav-chk">
+            <label for="nav-chk" class="nav-stop"></label>
 
-                <!-- side-toggle -->
-                <input type="checkbox" name="side-toggle" id="side-toggle">
+            <!-- aside-bar -->
+            <div class="aside-bar">
 
-                <!-- side-brand -->
-                <a href="#" class="side-brand">
-                    <label for="side-toggle" class="side-toggle-btn">
-                        <div class="side-icon">
-                            <div class="side-line line-01"></div>
-                            <div class="side-line line-02"></div>
-                            <div class="side-line line-03"></div>
-                        </div>
-                    </label>
-                </a>
-                <!-- /side-brand -->
-
-                <!-- sidebar-list -->
-                <div class="side-list">
-
-                    <!-- side-list-box -->
-                    <ul class="side-list-box">
-
-                        <!-- side-item -->
-                        <li class="side-item">
-                            <a href="#header" class="side-link">
-                                <p>Home</p>
-                            </a>
-                        </li>
-                        <!-- /side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item">
-                            <a href="#content" class="side-link">
-                                <p>Serviços</p>
-                            </a>
-                        </li>
-                        <!-- /side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item">
-                            <a href="#portfolio" class="side-link">
-                                <p>Portfólio</p>
-                            </a>
-                        </li>
-                        <!-- /side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item">
-                            <a href="#resumo" class="side-link">
-                                <p>Resumo</p>
-                            </a>
-                        </li>
-                        <!-- /side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item">
-                            <a href="#skills" class="side-link">
-                                <p>Skills</p>
-                            </a>
-                        </li>
-                        <!-- /side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item">
-                            <a href="#contato" class="side-link">
-                                <p>Contato</p>
-                            </a>
-                        </li>
-                        <!-- /side-item -->
-
-                    </ul>
-                    <!-- /side-list-box -->
-
-                </div>
-                <!-- sidebar-list -->
-
-                <!-- sidebar-info -->
-                <div class="side-info">
-
-                    <!-- side-info-box -->
-                    <ul class="side-info-box">
-
-                        <!-- side-item -->
-                        <li class="side-item py-3">
-
-                            <!-- side-title -->
-                            <h5 class="side-title">Nome</h5>
-
-                            <!-- side-text -->
-                            <p class="side-text">Fabricio Oliveira</p>
-
-                        </li>
-                        <!-- side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item py-3">
-
-                            <!-- side-title -->
-                            <h5 class="side-title">Atuação</h5>
-
-                            <!-- side-text -->
-                            <p class="side-text">Front End</p>
-
-                        </li>
-                        <!-- side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item py-3">
-
-                            <!-- side-title -->
-                            <h5 class="side-title">Email</h5>
-
-                            <!-- side-text -->
-                            <p class="side-text">fabriciooliveira.webdev@gmail.com</p>
-
-                        </li>
-                        <!-- side-item -->
-
-                        <!-- side-item -->
-                        <li class="side-item py-3">
-
-                            <!-- side-title -->
-                            <h5 class="side-title">Telefone</h5>
-
-                            <!-- side-text -->
-                            <p class="side-text">+55 11 981707508</p>
-
-                        </li>
-                        <!-- side-item -->
-
-                    </ul>
-                    <!-- side-info-box -->
-
-                    <!-- side-name -->
-                    <h5 class="side-name">
-                        Fabricio Oliveira
-                    </h5>
-
-                </div>
-                <!-- sidebar-info -->
-
-
+                <label for="nav-chk" class="aside-btn">
+                    <div class="aside-line line-1"></div>
+                    <div class="aside-line line-2"></div>
+                    <div class="aside-line line-3"></div>
+                </label>
 
             </div>
-            <!-- /sidebar-box -->
+            <!-- /aside-bar -->
+
+            <!-- aside-list -->
+            <div class="aside-list">
+
+                <li class="aside-item">
+                    <h1 class="aside-title">Nome</h1>
+                    <h5 class="aside-subtitle">Fabricio Oliveira</h5>
+                </li>
+
+                <li class="aside-item">
+                    <h1 class="aside-title">Atuação</h1>
+                    <h5 class="aside-subtitle">Front End</h5>
+                </li>
+
+                <li class="aside-item">
+                    <h1 class="aside-title">Email</h1>
+                    <h5 class="aside-subtitle">fabriciooliveira.webdev@gmail.com</h5>
+                </li>
+
+                <li class="aside-item">
+                    <h1 class="aside-title">Telefone</h1>
+                    <h5 class="aside-subtitle">+55 11 981707508</h5>
+                </li>
+
+            </div>
+            <!-- /aside-list -->
+
+            <!-- aside-signature -->
+            <h5 class="aside-signature">
+                Fabricio Oliveira
+            </h5>
+            <!-- /aside-signature -->
+
+            <!-- navbar -->
+            <nav id="navbar">
+
+                <!-- nav-list -->
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <p>Home</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Services" class="nav-link">
+                            <p>Serviços</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Portfolio" class="nav-link">
+                            <p>Portfólio</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Resumo" class="nav-link">
+                            <p>Resumo</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Habilidades" class="nav-link">
+                            <p>Habilidades</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#Contato" class="nav-link">
+                            <p>Contato</p>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- /nav-list -->
+
+            </nav>
+            <!-- /navbar -->
 
         </aside>
-        <!-- /sidebar -->
+        <!-- /aside -->
+
+
+        <!-- header -->
+        <header id="header">
+
+            <!-- header-info -->
+            <div class="header-info">
+
+                <!-- header-box -->
+                <div class="header-box">
+
+                    <!-- header-title -->
+                    <h5 class="header-title">Olá, eu me chamo</h5>
+
+                    <!-- header-name -->
+                    <h1 class="header-name">Fabricio<br>Oliveira.</h1>
+
+                    <!-- header-text -->
+                    <p class="header-text">
+                        Sou desenvolvedor front-end. Realizo
+                        interfaces web, proporcionando um visual
+                        agradável e organizado para os usuários.
+                    </p>
+
+                </div>
+                <!-- /header-box -->
+
+                <!-- header-nav -->
+                <nav class="header-nav">
+
+                    <!-- header-list -->
+                    <ul class="header-list">
+
+                        <li class="header-item">
+                            <a href="https://www.facebook.com/FabricioOliveiraDeveloper/" target="_blank" class="header-link">
+                                <i class="header-icon fab fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+
+                        <li class="header-item">
+                            <a href="https://www.instagram.com/fabricio_oliveira_photography/?hl=pt-br" target="_blank" class="header-link">
+                                <i class="header-icon fab fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+
+                        <li class="header-item">
+                            <a href="https://github.com/FabricioOliveiraDeveloper" target="_blank" class="header-link">
+                                <i class="header-icon fab fa-github"></i>
+                                Github
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <!-- /header-list -->
+
+                </nav>
+                <!-- /header-nav -->
+
+            </div>
+            <!-- /header-info -->
+
+            <!-- header-bg -->
+            <div class="header-bg"></div>
+            <!-- /header-bg -->
+
+        </header>
+        <!-- /header -->
 
 
         <!-- section -->
         <section id="section">
 
+            <!-- services -->
+            <section class="section-services section" id="Services">
 
-
-            <!-- header -->
-            <header id="header">
-
-                <!-- header-left -->
-                <div class="header-left">
-
-                    <!-- header-hellow -->
-                    <h5 class="header-hellow">
-                        Olá, eu me chamo
-                    </h5>
-
-                    <!-- header-name -->
-                    <h5 class="header-name">
-                        Fabricio Oliveira.
-                    </h5>
-
-                    <!-- header-text -->
-                    <p class="header-text">
-                        Sou desenvolvedor front-end. Realizo interfaces
-                        web, proporcionando um visual
-                        agradável e organizado para os usuários.
-                    </p>
-
-                    <ul class="nav header-nav">
-
-                        <a href="#" class="nav-link">
-                            Facebook
-                        </a>
-
-                        <a href="#" class="nav-link">
-                            Instagram
-                        </a>
-
-                        <a href="#" class="nav-link">
-                            LinkDin
-                        </a>
-
-                    </ul>
-
-                </div>
-                <!-- /header-left -->
-
-                <!-- header-right -->
-                <div class="header-right"></div>
-                <!-- /header-right -->
-
-            </header>
-            <!-- /header -->
-
-
-
-            <!-- content -->
-            <section id="content">
-
-                <!-- container-fluid -->
-                <div class="container-fluid py-5">
+                <!-- container -->
+                <div class="container-fluid">
 
                     <!-- row -->
                     <div class="row">
 
-
-
                         <!-- column -->
-                        <div class="col-lg-7 px-sm-5 px-4">
+                        <div class="col-lg-7 section-cards">
 
                             <!-- row -->
                             <div class="row">
 
-
                                 <!-- column -->
-                                <div class="col-md-6 mb-4">
+                                <div class="col-md-6">
 
-                                    <!-- card -->
                                     <div class="card">
 
-                                        <!-- card-img -->
-                                        <img src="sources/images/content/service1.png" alt="" class="card-img">
+                                        <img src="sources/images/services/service1.png" alt="" class="card-img">
 
-                                        <!-- card-body -->
-                                        <div class="card-body">
+                                        <h5 class="card-title">Developer</h5>
 
-                                            <!-- card-title -->
-                                            <h5 class="card-title">
-                                                Developer
-                                            </h5>
-
-                                            <!-- card-text -->
-                                            <p class="card-text">
-                                                Interfaces de usuário utilizando
-                                                ferramentas de UI, para realização
-                                                dos projetos.
-                                            </p>
-
-                                        </div>
-                                        <!-- card-body -->
+                                        <p class="card-text">
+                                            Interfaces de usuário utilizando
+                                            ferramentas de UI, para realização dos projetos.
+                                        </p>
 
                                     </div>
-                                    <!-- /card -->
-
-                                </div>
-                                <!-- /column -->
-
-
-                                <!-- column -->
-                                <div class="col-md-6 mb-4">
-
-                                    <!-- card -->
-                                    <div class="card">
-
-                                        <!-- card-img -->
-                                        <img src="sources/images/content/service2.png" alt="" class="card-img">
-
-                                        <!-- card-body -->
-                                        <div class="card-body">
-
-                                            <!-- card-title -->
-                                            <h5 class="card-title">
-                                                Front End
-                                            </h5>
-
-                                            <!-- card-text -->
-                                            <p class="card-text">
-                                                Criação de WebSite estático apartir de
-                                                um projeto utilizando códigos de marcação.
-                                            </p>
-
-                                        </div>
-                                        <!-- card-body -->
-
-                                    </div>
-                                    <!-- /card -->
-
-                                </div>
-                                <!-- /column -->
-
-
-                                <!-- column -->
-                                <div class="col-md-6 mb-3">
-
-                                    <!-- card -->
-                                    <div class="card">
-
-                                        <!-- card-img -->
-                                        <img src="sources/images/content/service3.png" alt="" class="card-img">
-
-                                        <!-- card-body -->
-                                        <div class="card-body">
-
-                                            <!-- card-title -->
-                                            <h5 class="card-title">
-                                                Design Gráfico
-                                            </h5>
-
-                                            <!-- card-text -->
-                                            <p class="card-text">
-                                                Manipulação de imagens, rascunhos de wireframes, para websites.
-                                            </p>
-
-                                        </div>
-                                        <!-- card-body -->
-
-                                    </div>
-                                    <!-- /card -->
 
                                 </div>
                                 <!-- /column -->
 
                                 <!-- column -->
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-6">
 
-                                    <!-- card -->
                                     <div class="card">
 
-                                        <!-- card-img -->
-                                        <img src="sources/images/content/service4.png" alt="" class="card-img">
+                                        <img src="sources/images/services/service2.png" alt="" class="card-img">
 
-                                        <!-- card-body -->
-                                        <div class="card-body">
+                                        <h5 class="card-title">Front End</h5>
 
-                                            <!-- card-title -->
-                                            <h5 class="card-title">
-                                                Design Gráfico
-                                            </h5>
-
-                                            <!-- card-text -->
-                                            <p class="card-text">
-                                                Manipulação de imagens, rascunhos de wireframes, para websites.
-                                            </p>
-
-                                        </div>
-                                        <!-- card-body -->
+                                        <p class="card-text">
+                                            Criação de WebSite estático apartir
+                                            de um projeto utilizando códigos de marcação.
+                                        </p>
 
                                     </div>
-                                    <!-- /card -->
+
+                                </div>
+                                <!-- /column -->
+
+                                <!-- column -->
+                                <div class="col-md-6">
+
+                                    <div class="card">
+
+                                        <img src="sources/images/services/service3.png" alt="" class="card-img">
+
+                                        <h5 class="card-title">Design Gráfico</h5>
+
+                                        <p class="card-text">
+                                            Manipulação de imagens,
+                                            rascunhos de wireframes, para websites.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                                <!-- /column -->
+
+                                <!-- column -->
+                                <div class="col-md-6">
+
+                                    <div class="card">
+
+                                        <img src="sources/images/services/service4.png" alt="" class="card-img">
+
+                                        <h5 class="card-title">Protótipo</h5>
+
+                                        <p class="card-text">
+                                            Realização de conceitos básicos
+                                            do projeto na fase inicial de desenvolvimento.
+                                        </p>
+
+                                    </div>
 
                                 </div>
                                 <!-- /column -->
@@ -397,260 +303,230 @@
                         </div>
                         <!-- /column -->
 
-
-
                         <!-- column -->
-                        <div class="col-lg-5 px-lg-0 mt-lg-0 col-12 px-sm-5 px-4 mt-5">
+                        <div class="col-lg-5 section-info">
 
-                            <!-- content-box -->
-                            <div class="content-box mr-md-5">
+                            <!-- texts -->
+                            <div class="section-texts">
 
-                                <!-- content-title -->
-                                <h5 class="content-title">
-                                    O que eu faço ?
+                                <!-- title -->
+                                <h5 class="section-title mb-4">
+                                    O que eu faço?
                                 </h5>
 
-                                <!-- content-subtitle -->
-                                <h6 class="content-subtitle mt-5">
-                                    Especificamente realizo wireframes, prototipos, websites estáticos e
-                                    componetes estáticos.
+                                <!-- subtitle -->
+                                <h6 class="section-subtitle mb-4">
+                                    Especificamente realizo wireframes, prototipos,
+                                    websites estáticos e componetes estáticos.
                                 </h6>
 
-                                <!-- content-text -->
-                                <p class="content-text mt-3">
-                                    Wireframe - ilustração do design de interface, dos
-                                    elementos que são fundamentais para a estrutura do website.
+                                <!-- text -->
+                                <p class="section-text mb-4">
+                                    Wireframe - ilustração do design de interface,
+                                    dos elementos que são fundamentais para a estrutura do website.
                                 </p>
 
-                                <!-- content-text -->
-                                <p class="content-text mt-3">
-                                    Prototipos - parte do processo de design, que permite
-                                    a revisão dos conceitos básicos do projeto na parte inicial
-                                    do desenvolvimento, compartilhando opniões com a equipe ou cliente.
+                                <!-- text -->
+                                <p class="section-text mb-4">
+                                    Prototipos - parte do processo de design, que
+                                    permite a revisão dos conceitos básicos do projeto
+                                    na parte inicial do desenvolvimento, compartilhando
+                                    opniões com a equipe ou cliente.
                                 </p>
 
-                                <!-- content-text -->
-                                <p class="content-text mt-3">
-                                    Componentes Estáticos - conteúdo escrito em HTML, proporcionando
-                                    proporcionando interação do usuário com a interface do website.
+                                <!-- text -->
+                                <p class="section-text mb-4">
+                                    Componentes Estáticos - conteúdo escrito em HTML,
+                                    proporcionando proporcionando interação do usuário
+                                    com a interface do website.
                                 </p>
-
-                                <div class="buttons">
-
-                                    <a href="#" class="btn content-btn">
-                                        Curriculo
-                                    </a>
-
-                                    <br>
-
-                                    <a href="#portfolio" class="btn content-btn mt-3">
-                                        Check meu portfólio
-                                    </a>
-
-                                </div>
 
                             </div>
-                            <!-- /content-box -->
+                            <!-- /texts -->
+
+                            <div class="buttons">
+
+                                <a href="#" class="btn">
+                                    <i class="fas fa-file-alt"></i>
+                                    - Meu Currículo
+                                </a>
+
+                                <br>
+
+                                <a href="#Portfolio" class="btn">
+                                    <i class="fas fa-file-alt"></i>
+                                    - Check meu Portfólio
+                                </a>
+
+                            </div>
 
                         </div>
                         <!-- /column -->
-
-
-
 
                     </div>
                     <!-- /row -->
 
                 </div>
-                <!-- container-fluid -->
+                <!-- container -->
 
             </section>
-            <!-- /content -->
-
+            <!-- /services -->
 
             <!-- portfolio -->
-            <section id="portfolio">
+            <section class="section-portfolio section" id="Portfolio">
 
+                <!-- section-title -->
+                <h5 class="section-title mb-5">
+                    Portfólio
+                </h5>
 
-
-                <!-- container-fluid -->
-                <div class="container-fluid px-md-5">
+                <!-- container -->
+                <div class="container-fluid">
 
                     <!-- row -->
                     <div class="row">
 
-                        <!-- content-title -->
-                        <h5 class="content-title mb-5 mt-5">
-                            Portfólio
-                        </h5>
-
-
                         <!-- column -->
-                        <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-lg-6 col-md-6">
 
                             <!-- card -->
-                            <div class="card">
+                            <a href="ClickDroid" target="_blank" class="card">
 
-                                <!-- card-link -->
-                                <a href="#" class="card-link">
+                                <!-- card-img -->
+                                <img src="sources/images/works/clickdroid-image.png" alt="" class="card-img">
 
-                                    <img src="sources/images/works/fashionstore-image.png" alt="" class="card-img">
+                                <!-- card-body -->
+                                <div class="card-body">
 
-                                    <!-- card-body -->
-                                    <div class="card-body">
+                                    <h5 class="card-title">
+                                        ClickDroid
+                                    </h5>
 
-                                        <h5 class="card-title">
-                                            FashionStore
-                                        </h5>
+                                    <p class="card-text">
+                                        Website
+                                    </p>
 
-                                        <h5 class="card-subtitle">
-                                            WebSite
-                                        </h5>
+                                </div>
+                                <!-- card-body -->
 
-                                    </div>
-                                    <!-- /card-body -->
-
-                                </a>
-                                <!-- /card-link -->
-
-                            </div>
+                            </a>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
 
-
                         <!-- column -->
-                        <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-lg-6 col-md-6">
 
                             <!-- card -->
-                            <div class="card">
+                            <a href="FashionStore" target="_blank"" class="card">
 
-                                <!-- card-link -->
-                                <a href="#" class="card-link">
+                                <!-- card-img -->
+                                <img src="sources/images/works/fashionstore-image.png" alt="" class="card-img">
 
-                                    <img src="sources/images/works/clickdroid-image.png" alt="" class="card-img">
+                                <!-- card-body -->
+                                <div class="card-body">
 
-                                    <!-- card-body -->
-                                    <div class="card-body">
+                                    <h5 class="card-title">
+                                        FashionStore
+                                    </h5>
 
-                                        <h5 class="card-title">
-                                            ClickDroid
-                                        </h5>
+                                    <p class="card-text">
+                                        Website
+                                    </p>
 
-                                        <h5 class="card-subtitle">
-                                            WebSite
-                                        </h5>
+                                </div>
+                                <!-- card-body -->
 
-                                    </div>
-                                    <!-- /card-body -->
-
-                                </a>
-                                <!-- /card-link -->
-
-                            </div>
+                            </a>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
 
-
                         <!-- column -->
-                        <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-lg-6 col-md-6">
 
                             <!-- card -->
-                            <div class="card">
+                            <a href="Spotify" target="_blank" class="card">
 
-                                <!-- card-link -->
-                                <a href="#" class="card-link">
+                                <!-- card-img -->
+                                <img src="sources/images/works/spotify-clone-image.png" alt="" class="card-img">
 
-                                    <img src="sources/images/works/spotify-clone-image.png" alt="" class="card-img">
+                                <!-- card-body -->
+                                <div class="card-body">
 
-                                    <!-- card-body -->
-                                    <div class="card-body">
+                                    <h5 class="card-title">
+                                        Spotify
+                                    </h5>
 
-                                        <h5 class="card-title">
-                                            SmartShop
-                                        </h5>
+                                    <p class="card-text">
+                                        Website
+                                    </p>
 
-                                        <h5 class="card-subtitle">
-                                            WebSite
-                                        </h5>
+                                </div>
+                                <!-- card-body -->
 
-                                    </div>
-                                    <!-- /card-body -->
-
-                                </a>
-                                <!-- /card-link -->
-
-                            </div>
+                            </a>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
 
-
                         <!-- column -->
-                        <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="col-lg-6 col-md-6">
 
                             <!-- card -->
-                            <div class="card">
+                            <a href="https://xd.adobe.com/view/64c4742e-431f-4c85-97d4-c25042bdcad5-3197/" target="_blank" class="card">
 
-                                <!-- card-link -->
-                                <a href="#" class="card-link">
+                                <!-- card-img -->
+                                <img src="sources/images/works/beleza-natural.png" alt="" class="card-img">
 
-                                    <img src="sources/images/works/beleza-natural.png" alt="" class="card-img">
+                                <!-- card-body -->
+                                <div class="card-body">
 
-                                    <!-- card-body -->
-                                    <div class="card-body">
+                                    <h5 class="card-title">
+                                        Beleza Natural
+                                    </h5>
 
-                                        <h5 class="card-title">
-                                            beleza-natural
-                                        </h5>
+                                    <p class="card-text">
+                                        Prototipo App
+                                    </p>
 
-                                        <h5 class="card-subtitle">
-                                            Prototipo App
-                                        </h5>
+                                </div>
+                                <!-- card-body -->
 
-                                    </div>
-                                    <!-- /card-body -->
-
-                                </a>
-                                <!-- /card-link -->
-
-                            </div>
+                            </a>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
-
 
                     </div>
                     <!-- /row -->
 
                 </div>
-                <!-- /container-fluid -->
+                <!-- /container -->
 
             </section>
             <!-- /portfolio -->
 
-
             <!-- resumo -->
-            <section id="resumo">
+            <section class="section-resumo section" id="Resumo">
+
+                <!-- section-title -->
+                <h5 class="section-title mb-5">
+                    Resumo
+                </h5>
 
                 <!-- container-fluid -->
-                <div class="container-fluid px-md-5">
-
-                    <!-- content-title -->
-                    <h5 class="content-title mb-5 mt-5"> Resumo </h5>
+                <div class="container-fluid">
 
                     <!-- row -->
-                    <div class="row justify-content-center">
-
+                    <div class="row">
 
                         <!-- column -->
-                        <div class="col-md-7">
-
+                        <div class="col-lg-7 mb-5">
 
                             <!-- row -->
                             <div class="row resumo-info">
@@ -659,28 +535,21 @@
                                 <div class="col-2">
 
                                     <!-- resumo-data -->
-                                    <h5 class="resumo-data"> 2009 </h5>
+                                    <h5 class="resumo-data">2009</h5>
 
                                 </div>
                                 <!-- /column -->
-
 
                                 <!-- column -->
                                 <div class="col-2">
 
                                     <!-- resumo-line -->
                                     <div class="resumo-line">
-
-                                        <!-- resumo-circle -->
                                         <div class="resumo-circle"></div>
-                                        <!-- /resumo-circle -->
-
                                     </div>
-                                    <!-- resumo-line -->
 
                                 </div>
                                 <!-- /column -->
-
 
                                 <!-- column -->
                                 <div class="col-8">
@@ -688,35 +557,30 @@
                                     <!-- card -->
                                     <div class="card">
 
-
                                         <!-- card-body -->
                                         <div class="card-body">
 
                                             <!-- card-title -->
-                                            <h5 class="card-title"> Microcamp </h5>
+                                            <h5 class="card-title">Microcamp</h5>
 
                                             <!-- card-text -->
                                             <p class="card-text">
 
-                                                <b>2009-2011</b>
+                                                <!-- card-data -->
+                                                <b>2009 - 2011</b>
 
                                                 <br>
-
                                                 Instituição academica de
-
-                                                <br>
-
-                                                cursos profissionalizantes
-
-                                                <br>
-
+                                                cursos profissionalizantes.
+                                                <br><br>
+                                                Cursos Realizados -
                                                 Informatica, Microsoft Office, Windows e Internet.
 
                                             </p>
-                                            <!-- card-text -->
+                                            <!-- /card-text -->
 
                                         </div>
-                                        <!-- card-body -->
+                                        <!-- /card-body -->
 
                                     </div>
                                     <!-- /card -->
@@ -724,10 +588,8 @@
                                 </div>
                                 <!-- /column -->
 
-
                             </div>
                             <!-- /row -->
-
 
                             <!-- row -->
                             <div class="row resumo-info">
@@ -736,28 +598,21 @@
                                 <div class="col-2">
 
                                     <!-- resumo-data -->
-                                    <h5 class="resumo-data"> 2011 </h5>
+                                    <h5 class="resumo-data">2011</h5>
 
                                 </div>
                                 <!-- /column -->
-
 
                                 <!-- column -->
                                 <div class="col-2">
 
                                     <!-- resumo-line -->
                                     <div class="resumo-line">
-
-                                        <!-- resumo-circle -->
                                         <div class="resumo-circle"></div>
-                                        <!-- /resumo-circle -->
-
                                     </div>
-                                    <!-- /resumo-line -->
 
                                 </div>
                                 <!-- /column -->
-
 
                                 <!-- column -->
                                 <div class="col-8">
@@ -769,26 +624,20 @@
                                         <div class="card-body">
 
                                             <!-- card-title -->
-                                            <h5 class="card-title"> Top Center </h5>
+                                            <h5 class="card-title">Top Center</h5>
 
                                             <!-- card-text -->
                                             <p class="card-text">
 
+                                                <!-- card-data -->
                                                 <b>09/2011 - 11/2011</b>
 
                                                 <br>
-
                                                 Instituição academica de
-
-                                                <br>
-
-                                                cursos profissionalizantes
-
-                                                <br>
-
-                                                Empreedendorismo e
-                                                TI Técnologia da informação.
-
+                                                cursos profissionalizantes.
+                                                <br><br>
+                                                Cursos Realizados -
+                                                Empreedendorismo e TI Técnologia da informação.
                                             </p>
                                             <!-- /card-text -->
 
@@ -804,37 +653,28 @@
                             </div>
                             <!-- /row -->
 
-
                             <!-- row -->
                             <div class="row resumo-info">
 
-
-                                <!-- colmun -->
+                                <!-- column -->
                                 <div class="col-2">
 
                                     <!-- resumo-data -->
-                                    <h5 class="resumo-data"> 2016 </h5>
+                                    <h5 class="resumo-data">2016</h5>
 
                                 </div>
                                 <!-- /column -->
-
 
                                 <!-- column -->
                                 <div class="col-2">
 
                                     <!-- resumo-line -->
                                     <div class="resumo-line">
-
-                                        <!-- resumo-circle -->
                                         <div class="resumo-circle"></div>
-                                        <!-- /resumo-circle -->
-
                                     </div>
-                                    <!-- /resumo-line -->
 
                                 </div>
                                 <!-- /column -->
-
 
                                 <!-- column -->
                                 <div class="col-8">
@@ -846,156 +686,19 @@
                                         <div class="card-body">
 
                                             <!-- card-title -->
-                                            <h5 class="card-title"> Arrastart </h5>
+                                            <h5 class="card-title">IPED</h5>
 
                                             <!-- card-text -->
                                             <p class="card-text">
 
+                                                <!-- card-data -->
                                                 <b>04/2016 - 05/2016</b>
 
                                                 <br>
-                                                Instituto Politécnico EAD
-                                                <br>
-                                                Curso básico de HTML5 e CSS3.
-                                            </p>
-                                            <!-- /card-text -->
-
-                                        </div>
-                                        <!-- card-body -->
-
-                                    </div>
-                                    <!-- /card -->
-
-                                </div>
-                                <!-- /column -->
-
-
-                            </div>
-                            <!-- /row -->
-
-
-                            <!-- row -->
-                            <div class="row resumo-info">
-
-
-                                <!-- column -->
-                                <div class="col-2">
-
-                                    <!-- resumo-data -->
-                                    <h5 class="resumo-data"> 2018 </h5>
-
-                                </div>
-                                <!-- /column -->
-
-
-                                <!-- column -->
-                                <div class="col-2">
-
-                                    <!-- resumo-line -->
-                                    <div class="resumo-line">
-
-                                        <!-- resumo-cicle -->
-                                        <div class="resumo-circle"></div>
-                                        <!-- /resumo-cicle -->
-
-                                    </div>
-                                    <!-- /resumo-line -->
-
-                                </div>
-                                <!-- column -->
-
-
-                                <!-- column -->
-                                <div class="col-8">
-
-                                    <!-- card -->
-                                    <div class="card">
-
-                                        <!-- card-body -->
-                                        <div class="card-body">
-
-                                            <!-- card-title -->
-                                            <h5 class="card-title"> Udemy </h5>
-
-                                            <!-- card-text -->
-                                            <p class="card-text">
-
-                                                <b>01/2018 - 05/2018</b>
-
-                                                <br>
-                                                Instituto Marketgplace EAD
-                                                <br>
-                                                Sites estáticos utilizando jekyll
-
-                                            </p>
-                                            <!-- /card-text -->
-
-                                        </div>
-
-                                    </div>
-                                    <!-- /card -->
-
-                                </div>
-                                <!-- /column -->
-
-
-                            </div>
-                            <!-- /row -->
-
-
-                            <!-- row -->
-                            <div class="row resumo-info">
-
-
-                                <!-- column -->
-                                <div class="col-2">
-
-                                    <!-- resumo-data -->
-                                    <h5 class="resumo-data"> 2018 </h5>
-
-                                </div>
-                                <!-- /column -->
-
-
-                                <!-- column -->
-                                <div class="col-2">
-
-                                    <!-- resumo-line -->
-                                    <div class="resumo-line">
-
-                                        <!-- resumo-cicle -->
-                                        <div class="resumo-circle"></div>
-                                        <!-- /resumo-cicle -->
-
-                                    </div>
-                                    <!-- /resumo-line -->
-
-                                </div>
-                                <!-- /column -->
-
-
-                                <!-- column -->
-                                <div class="col-8">
-
-                                    <!-- card -->
-                                    <div class="card">
-
-                                        <!-- card-body -->
-                                        <div class="card-body">
-
-                                            <!-- card-title -->
-                                            <h5 class="card-title"> Udemy </h5>
-
-                                            <!-- card-text -->
-                                            <p class="card-text">
-
-                                                <b>07/2018 - 06/2019</b>
-
-                                                <br>
-                                                Instituto Marketgplace EAD
-                                                <br>
-                                                Desenvolvimento Web, HTML5, CSS3, JavaScript, Jquery
-                                                Bootstrap, PHP, MYSQL.
+                                                Instituto Politécnico de Ensino a Distância
+                                                <br><br>
+                                                Cursos Realizados -
+                                                HTML5 e CSS3.
                                             </p>
                                             <!-- /card-text -->
 
@@ -1008,125 +711,260 @@
                                 </div>
                                 <!-- /column -->
 
+                            </div>
+                            <!-- /row -->
+
+                            <!-- row -->
+                            <div class="row resumo-info">
+
+                                <!-- column -->
+                                <div class="col-2">
+
+                                    <!-- resumo-data -->
+                                    <h5 class="resumo-data">2016</h5>
+
+                                </div>
+                                <!-- /column -->
+
+                                <!-- column -->
+                                <div class="col-2">
+
+                                    <!-- resumo-line -->
+                                    <div class="resumo-line">
+                                        <div class="resumo-circle"></div>
+                                    </div>
+
+                                </div>
+                                <!-- /column -->
+
+                                <!-- column -->
+                                <div class="col-8">
+
+                                    <!-- card -->
+                                    <div class="card">
+
+                                        <!-- card-body -->
+                                        <div class="card-body">
+
+                                            <!-- card-title -->
+                                            <h5 class="card-title">Arrastart</h5>
+
+                                            <!-- card-text -->
+                                            <p class="card-text">
+
+                                                <!-- card-data -->
+                                                <b>06/2016 - 07/2016</b>
+
+                                                <br>
+                                                Instituição Academica de cursos profissionalizantes
+                                                <br><br>
+                                                Cursos Realizados -
+                                                Empreedendorismo e Inovação Social.
+                                            </p>
+                                            <!-- /card-text -->
+
+                                        </div>
+                                        <!-- /card-body -->
+
+                                    </div>
+                                    <!-- /card -->
+
+                                </div>
+                                <!-- /column -->
 
                             </div>
                             <!-- /row -->
 
+                            <!-- row -->
+                            <div class="row resumo-info">
 
-                        </div>
-                        <!-- /column -->
+                                <!-- column -->
+                                <div class="col-2">
 
+                                    <!-- resumo-data -->
+                                    <h5 class="resumo-data">2018</h5>
 
-                        <!-- column -->
-                        <div class="col-md-5 mt-md-0 col-12 mt-5">
+                                </div>
+                                <!-- /column -->
 
-                            <!-- resumo-info -->
-                            <div class="resumo-info">
+                                <!-- column -->
+                                <div class="col-2">
 
-                                <!-- resumo-title -->
-                                <h5 class="resumo-title mb-4"> Um pouco sobre mim.</h5>
+                                    <!-- resumo-line -->
+                                    <div class="resumo-line">
+                                        <div class="resumo-circle"></div>
+                                    </div>
 
-                                <!-- resumo-text -->
-                                <p class="resumo-text">
+                                </div>
+                                <!-- /column -->
 
-                                    Me chamo, Fabricio Oliveira tenho 25 anos, nasci em São Paulo-SP,
-                                    uma cidade grande bem agitada ao mesmo tempo cheia de recursos.
+                                <!-- column -->
+                                <div class="col-8">
 
-                                    <br><br>
+                                    <!-- card -->
+                                    <div class="card">
 
-                                    Adoro tecnologia em geral, mas particularmente sou apaixonado por
-                                    desenvolvimento web, por isso quis saber mais e comecei a minha jornada
-                                    pesquisando e estudando muito com bastante esforço.
+                                        <!-- card-body -->
+                                        <div class="card-body">
 
-                                    <br><br>
+                                            <!-- card-title -->
+                                            <h5 class="card-title">Udemy</h5>
 
-                                    Hoje sou Graduado em Téc. Analise de Desenvolvimento, cursei na Universidade
-                                    Nove de Julho em 2015 a 2017, adorei ter feito esta escolha para minha vida,
-                                    me sinto realizado por ter concluido esta etapa, fora outras que ainda tenho em
-                                    mente.
+                                            <!-- card-text -->
+                                            <p class="card-text">
 
-                                    <br><br>
+                                                <!-- card-data -->
+                                                <b>01/2018 - 05/2018</b>
 
-                                    Adoro trabalhar em equipe, discutir sobre tal projeto entre amigos e parceiros, pois
-                                    sou
-                                    bastante comunicativo, e gosto tanto de aprender quanto passar o que aprendi para
-                                    as pessoas adiante.
+                                                <br>
+                                                Instituição Marketplace EAD
+                                                <br><br>
+                                                Cursos Realizados -
+                                                Sites estáticos utilizando jekyll.
+                                            </p>
+                                            <!-- /card-text -->
 
-                                    <br><br>
+                                        </div>
+                                        <!-- /card-body -->
 
-                                    No meu tempo livre, gosto de ouvir músicas, assitir filmes e series.
-                                    Adoro parques, passear ao ar livre respirar um pouco ,
-                                    sempre bom ter um tempo para espairecer.
+                                    </div>
+                                    <!-- /card -->
 
-                                </p>
-                                <!-- /resumo-text -->
+                                </div>
+                                <!-- /column -->
 
                             </div>
-                            <!-- /resumo-info -->
+                            <!-- /row -->
+
+                            <!-- row -->
+                            <div class="row resumo-info">
+
+                                <!-- column -->
+                                <div class="col-2">
+
+                                    <!-- resumo-data -->
+                                    <h5 class="resumo-data">2018</h5>
+
+                                </div>
+                                <!-- /column -->
+
+                                <!-- column -->
+                                <div class="col-2">
+
+                                    <!-- resumo-line -->
+                                    <div class="resumo-line">
+                                        <div class="resumo-circle"></div>
+                                    </div>
+
+                                </div>
+                                <!-- /column -->
+
+                                <!-- column -->
+                                <div class="col-8">
+
+                                    <!-- card -->
+                                    <div class="card">
+
+                                        <!-- card-body -->
+                                        <div class="card-body">
+
+                                            <!-- card-title -->
+                                            <h5 class="card-title">Udemy</h5>
+
+                                            <!-- card-text -->
+                                            <p class="card-text">
+
+                                                <!-- card-data -->
+                                                <b>07/2018 - 06/2019</b>
+
+                                                <br>
+                                                Instituição Marketplace EAD
+                                                <br><br>
+                                                Cursos Realizados -
+                                                HTML5, CSS3, JavaScript, Jquery, Bootstrap e PHP.
+                                            </p>
+                                            <!-- /card-text -->
+
+                                        </div>
+                                        <!-- /card-body -->
+
+                                    </div>
+                                    <!-- /card -->
+
+                                </div>
+                                <!-- /column -->
+
+                            </div>
+                            <!-- /row -->
 
                         </div>
                         <!-- /column -->
 
+                        <!-- column -->
+                        <div class="col-lg-5">
+
+                            <h5 class="section-subtitle mb-4">
+                                Um pouco sobre mim.
+                            </h5>
+
+                            <p class="section-text mb-4">
+                                Me chamo, Fabricio Oliveira tenho 25 anos,
+                                nasci em São Paulo-SP, uma cidade grande bem
+                                agitada ao mesmo tempo cheia de recursos.
+                            </p>
+
+                            <p class="section-text mb-4">
+                                Adoro tecnologia em geral, mas particularmente
+                                sou apaixonado por desenvolvimento web, por isso
+                                quis saber mais e comecei a minha jornada pesquisando e
+                                estudando muito com bastante dedicação.
+                            </p>
+
+                            <p class="section-text mb-4">
+                                Hoje sou Graduado em Téc. Analise de Desenvolvimento,
+                                cursei na Universidade Nove de Julho em 2015 a 2017,
+                                amei ter feito esta escolha para minha vida, me sinto
+                                realizado por ter concluido esta etapa, fora outras que
+                                ainda tenho em mente.
+                            </p>
+
+                            <p class="section-text mb-4">
+                                Gosto muito trabalhar em equipe, discutir sobre tal projeto
+                                entre amigos e parceiros, pois sou bastante comunicativo,
+                                e gosto tanto de aprender quanto passar o que aprendi para
+                                as pessoas adiante.
+                            </p>
+
+                            <p class="section-text">
+                                E no meu tempo livre, gosto de ouvir músicas, assitir filmes
+                                e series. Adoro parques, passear ao ar livre para relaxar, pois
+                                sempre bom ter um tempo para espairecer.
+                            </p>
+
+
+                        </div>
+                        <!-- /column -->
 
                     </div>
                     <!-- /row -->
-
 
                 </div>
                 <!-- /container-fluid -->
 
             </section>
-            <!-- resumo -->
+            <!-- /resumo -->
 
+            <!-- habilidades -->
+            <section class="section-habilidades section" id="Habilidades">
 
-            <!-- skills -->
-            <section id="skills">
+                <!-- section-title -->
+                <h5 class="section-title mb-5">Habilidades</h5>
 
                 <!-- container-fluid -->
-                <div class="container-fluid px-md-5">
-
-                    <!-- content-title -->
-                    <h5 class="content-title mb-5 mt-5"> Skylls </h5>
+                <div class="container-fluid">
 
                     <!-- row -->
-                    <div class="row mb-5">
-
-
-                        <!-- column -->
-                        <div class="col-md-4">
-
-                            <!-- card -->
-                            <div class="card">
-
-                                <!-- card-body -->
-                                <div class="card-body">
-
-                                    <!-- card-title -->
-                                    <h5 class="card-title">HTML5</h5>
-
-                                    <!-- skill-porcent -->
-                                    <div class="skill-porcent">
-
-                                        <!-- skill-line -->
-                                        <div class="skill-line skill-html"></div>
-                                        <!-- /skill-line -->
-
-                                        <!-- skill-number -->
-                                        <h5 class="skill-number skill-number-html"></h5>
-                                        <!-- skill-number -->
-
-                                    </div>
-                                    <!-- skill-porcent -->
-
-                                </div>
-                                <!-- /card-body -->
-
-                            </div>
-                            <!-- /card -->
-
-                        </div>
-                        <!-- /column -->
-
+                    <div class="row">
 
                         <!-- column -->
                         <div class="col-md-4">
@@ -1134,35 +972,24 @@
                             <!-- card -->
                             <div class="card">
 
-                                <!-- card-body -->
+                                <h5 class="card-title">
+                                    Html5
+                                </h5>
+
                                 <div class="card-body">
 
-                                    <!-- card-title -->
-                                    <h5 class="card-title">CSS3</h5>
-
-                                    <!-- skill-porcent -->
-                                    <div class="skill-porcent">
-
-                                        <!-- skill-line -->
-                                        <div class="skill-line skill-css"></div>
-                                        <!-- /skill-line -->
-
-                                        <!-- skill-number -->
-                                        <h5 class="skill-number skill-number-css"></h5>
-                                        <!-- skill-number -->
-
+                                    <div class="habilidade mb-1">
+                                        <div class="habilidade-info habilidade-html"></div>
+                                        <div class="habilidade-number-info habilidade-number-html"></div>
                                     </div>
-                                    <!-- skill-porcent -->
 
                                 </div>
-                                <!-- /card-body -->
 
                             </div>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
-
 
                         <!-- column -->
                         <div class="col-md-4">
@@ -1170,35 +997,24 @@
                             <!-- card -->
                             <div class="card">
 
-                                <!-- card-body -->
+                                <h5 class="card-title">
+                                    CSS3
+                                </h5>
+
                                 <div class="card-body">
 
-                                    <!-- card-title -->
-                                    <h5 class="card-title">JavaScript</h5>
-
-                                    <!-- skill-porcent -->
-                                    <div class="skill-porcent">
-
-                                        <!-- skill-line -->
-                                        <div class="skill-line skill-javascript"></div>
-                                        <!-- /skill-line -->
-
-                                        <!-- skill-number -->
-                                        <h5 class="skill-number skill-number-javascript"></h5>
-                                        <!-- skill-number -->
-
+                                    <div class="habilidade mb-1">
+                                        <div class="habilidade-info habilidade-css"></div>
+                                        <div class="habilidade-number-info habilidade-number-css"></div>
                                     </div>
-                                    <!-- skill-porcent -->
 
                                 </div>
-                                <!-- /card-body -->
 
                             </div>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
-
 
                         <!-- column -->
                         <div class="col-md-4">
@@ -1206,35 +1022,24 @@
                             <!-- card -->
                             <div class="card">
 
-                                <!-- card-body -->
+                                <h5 class="card-title">
+                                    JavaScript
+                                </h5>
+
                                 <div class="card-body">
 
-                                    <!-- card-title -->
-                                    <h5 class="card-title">Jquery</h5>
-
-                                    <!-- skill-porcent -->
-                                    <div class="skill-porcent">
-
-                                        <!-- skill-line -->
-                                        <div class="skill-line skill-jquery"></div>
-                                        <!-- /skill-line -->
-
-                                        <!-- skill-number -->
-                                        <h5 class="skill-number skill-number-jquery"></h5>
-                                        <!-- skill-number -->
-
+                                    <div class="habilidade mb-1">
+                                        <div class="habilidade-info habilidade-js"></div>
+                                        <div class="habilidade-number-info habilidade-number-js"></div>
                                     </div>
-                                    <!-- skill-porcent -->
 
                                 </div>
-                                <!-- /card-body -->
 
                             </div>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
-
 
                         <!-- column -->
                         <div class="col-md-4">
@@ -1242,35 +1047,24 @@
                             <!-- card -->
                             <div class="card">
 
-                                <!-- card-body -->
+                                <h5 class="card-title">
+                                    Jquery
+                                </h5>
+
                                 <div class="card-body">
 
-                                    <!-- card-title -->
-                                    <h5 class="card-title">Jekyll</h5>
-
-                                    <!-- skill-porcent -->
-                                    <div class="skill-porcent">
-
-                                        <!-- skill-line -->
-                                        <div class="skill-line skill-jekyll"></div>
-                                        <!-- /skill-line -->
-
-                                        <!-- skill-number -->
-                                        <h5 class="skill-number skill-number-jekyll"></h5>
-                                        <!-- skill-number -->
-
+                                    <div class="habilidade mb-1">
+                                        <div class="habilidade-info habilidade-jq"></div>
+                                        <div class="habilidade-number-info habilidade-number-jq"></div>
                                     </div>
-                                    <!-- skill-porcent -->
 
                                 </div>
-                                <!-- /card-body -->
 
                             </div>
                             <!-- /card -->
 
                         </div>
                         <!-- /column -->
-
 
                         <!-- column -->
                         <div class="col-md-4">
@@ -1278,28 +1072,18 @@
                             <!-- card -->
                             <div class="card">
 
-                                <!-- card-body -->
+                                <h5 class="card-title">
+                                    Jekyll
+                                </h5>
+
                                 <div class="card-body">
 
-                                    <!-- card-title -->
-                                    <h5 class="card-title">Framework Bootstrap</h5>
-
-                                    <!-- skill-porcent -->
-                                    <div class="skill-porcent">
-
-                                        <!-- skill-line -->
-                                        <div class="skill-line skill-bootstrap"></div>
-                                        <!-- /skill-line -->
-
-                                        <!-- skill-number -->
-                                        <h5 class="skill-number skill-number-bootstrap"></h5>
-                                        <!-- skill-number -->
-
+                                    <div class="habilidade mb-1">
+                                        <div class="habilidade-info habilidade-jk"></div>
+                                        <div class="habilidade-number-info habilidade-number-jk"></div>
                                     </div>
-                                    <!-- skill-porcent -->
 
                                 </div>
-                                <!-- /card-body -->
 
                             </div>
                             <!-- /card -->
@@ -1307,6 +1091,30 @@
                         </div>
                         <!-- /column -->
 
+                        <!-- column -->
+                        <div class="col-md-4">
+
+                            <!-- card -->
+                            <div class="card">
+
+                                <h5 class="card-title">
+                                    Bootstrap
+                                </h5>
+
+                                <div class="card-body">
+
+                                    <div class="habilidade mb-1">
+                                        <div class="habilidade-info habilidade-bt"></div>
+                                        <div class="habilidade-number-info habilidade-number-bt"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- /card -->
+
+                        </div>
+                        <!-- /column -->
 
                     </div>
                     <!-- /row -->
@@ -1315,36 +1123,105 @@
                 <!-- /container-fluid -->
 
             </section>
-            <!-- skills -->
-
-
-            <!-- footer -->
-            <footer id="footer">
-
-                <!-- container-fluid -->
-                <div class="container-fluid text-center py-4" style="color: var(--color-07);">
-
-                    Fabricio Oliveira - Portfólio 2020
-
-                </div>
-                <!-- container-fluid -->
-
-            </footer>
-            <!-- /footer -->
-
+            <!-- /habilidades -->
 
         </section>
         <!-- /section -->
 
 
+        <!-- footer -->
+        <footer id="footer">
+
+            <!-- container-fluid -->
+            <div class="section container-fluid" id="Contato">
+
+                <h5 class="section-title">Redes Sociais</h5>
+
+                <!-- row -->
+                <div class="row mt-5">
+
+                    <!-- column -->
+                    <div class="col-lg-3 col-md-6">
+
+                        <a href="#" class="card">
+
+                            <i class="card-icon fab fa-facebook"></i>
+
+                            <h5 class="card-title">
+                                Facebook
+                            </h5>
+
+                        </a>
+
+                    </div>
+                    <!-- /column -->
+
+                    <!-- column -->
+                    <div class="col-lg-3 col-md-6">
+
+                        <a href="#" class="card">
+
+                            <i class="card-icon fab fa-instagram"></i>
+
+                            <h5 class="card-title">
+                                Instagram
+                            </h5>
+
+                        </a>
+
+                    </div>
+                    <!-- /column -->
+
+                    <!-- column -->
+                    <div class="col-lg-3 col-md-6">
+
+                        <a href="#" class="card">
+
+                            <i class="card-icon fas fa-envelope"></i>
+
+                            <h5 class="card-title">
+                                Email
+                            </h5>
+
+                        </a>
+
+                    </div>
+                    <!-- /column -->
+
+                    <!-- column -->
+                    <div class="col-lg-3 col-md-6">
+
+                        <a href="#" class="card">
+
+                            <i class="card-icon fab fa-youtube"></i>
+
+                            <h5 class="card-title">
+                                Youtube
+                            </h5>
+
+                        </a>
+
+                    </div>
+                    <!-- /column -->
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container-fluid -->
+
+            <h5 class="footer-info">
+                Portfólio - 2020 &copy;
+            </h5>
+
+        </footer>
+        <!-- /footer -->
+
+
     </main>
     <!-- main -->
 
-
-    <!-- fontawesome -->
-    <script src="sources/frameworks/fontawesome/js/all.js"></script>
-
-
+    <script src="sources/frameworks/fontawesome-free-5.15.2-web/js/all.js"></script>
 
 </body>
 

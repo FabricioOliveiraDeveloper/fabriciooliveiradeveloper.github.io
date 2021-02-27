@@ -1,0 +1,417 @@
+
+
+/* section id */
+#section{
+    background-color: var(--section);
+    color: var(--section-text);
+    position: relative;
+    z-index: 2;
+}
+
+/* section class */
+.section{
+    background-color: var(--section);
+    color: var(--section-text);
+    padding: 50px 50px;
+    height: auto;
+}
+
+/* section-texts */
+.section-texts{
+    height: auto;
+}
+
+/* section-title */
+.section-title{
+    font-size: 25px;
+}
+
+/* section-subtitle */
+.section-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* section-text */
+.section-text{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/* .section-services .card */
+.section-services .card{
+    width: 100%;
+    padding: 40px;
+    background-color: var(--section-card);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* .section-services .card-img */
+.section-services .card .card-img{
+    width: 80px;
+    display: block;
+}
+
+/* .section-services .card-title */
+.section-services .card .card-title{
+    margin: 25px 0px;
+    padding: 0 0;
+    font-size: 20px;
+}
+
+/* .section-services .card-text */
+.section-services .card .card-text{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+
+
+/* .section-portfolio .card */
+.section-portfolio .card{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .section-portfolio .card-img */
+.section-portfolio .card-img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* .section-portfolio .card-body */
+.section-portfolio .card-body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--section-card);
+    position: absolute;
+    top: 0;
+    left: -500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    opacity: 0;
+    transition: width 0.5s, opacity 0.5s, left 0.5s;
+    overflow: hidden;
+}
+
+/* .section-portfolio card-hover */
+.section-portfolio .card:hover .card-body{
+    width: 100%;
+    opacity: 1;
+    left: 0;
+}
+
+/* .section-portfolio .card-title */
+.section-portfolio .card-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+/* .section-portfolio .card-text */
+.section-portfolio .card-text{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 0 20px 20px 20px;
+}
+
+
+
+/* resumo-info */
+.section-resumo .resumo-info{
+    cursor: pointer;
+}
+
+/* resumo-data */
+.section-resumo .resumo-data{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    transition: margin 0.2s;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* resumo-data hover */
+.section-resumo .resumo-info:hover .resumo-data{
+    margin-left: 0;
+}
+
+/* resumo-line */
+.section-resumo .resumo-line{
+    width: 5px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--resumo-line);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* resumo-circle */
+.section-resumo .resumo-circle{
+    width: 20px;
+    height: 20px;
+    background-color: var(--resumo-circle);
+    border-radius: 200px;
+    box-shadow:
+    0 0 0 4px var(--resumo-circle),
+    0 0 0 8px var(--resumo-line);
+    transition: background 0.5s;
+}
+
+/* resumo-circle hover */
+.section-resumo .resumo-info:hover .resumo-circle{
+    background-color: var(--resumo-circle-hover);
+}
+
+
+/* resumo-card */
+.section-resumo .card{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+
+/* resumo-card hover */
+.section-resumo .resumo-info:hover .card{
+    background-color: var(--resumo-card);
+}
+
+/* resumo card-title */
+.section-resumo .card-title{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0;
+}
+
+/* resumo .card-text b*/
+.section-resumo .card-text b{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+/* resumo .card-text */
+.section-resumo .card-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+/* habilidades .card */
+.section-habilidades .card{
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background 0.5s;
+} 
+
+/* habilidades .card */
+.section-habilidades .card:hover{
+    background-color: var(--blue-2);
+} 
+
+.section-habilidades .habilidade{
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    background-color: var(--blue-4);
+    position: relative;
+    
+}
+
+.section-habilidades .habilidade-html::before{
+    content: "";
+    width: 95%;
+    height: 20px;
+    background-color: var(--blue-5);
+    position: absolute;
+    top: -5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+
+.section-habilidades .habilidade-number-html::before{
+    content: "95%";
+    width: 95%;
+    height: 20px;
+    color: var(--blue-1);
+    position: absolute;
+    top: -5px;
+    left: -8px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-habilidades .habilidade-css::before{
+    content: "";
+    width: 90%;
+    height: 20px;
+    background-color: var(--blue-5);
+    position: absolute;
+    top: -5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.section-habilidades .habilidade-number-css::before{
+    content: "90%";
+    width: 90%;
+    height: 20px;
+    color: var(--blue-1);
+    position: absolute;
+    top: -5px;
+    left: -8px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-habilidades .habilidade-js::before{
+    content: "";
+    width: 70%;
+    height: 20px;
+    background-color: var(--blue-5);
+    position: absolute;
+    top: -5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.section-habilidades .habilidade-number-js::before{
+    content: "70%";
+    width: 70%;
+    height: 20px;
+    color: var(--blue-1);
+    position: absolute;
+    top: -5px;
+    left: -8px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-habilidades .habilidade-jq::before{
+    content: "";
+    width: 60%;
+    height: 20px;
+    background-color: var(--blue-5);
+    position: absolute;
+    top: -5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.section-habilidades .habilidade-number-jq::before{
+    content: "60%";
+    width: 60%;
+    height: 20px;
+    color: var(--blue-1);
+    position: absolute;
+    top: -5px;
+    left: -8px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-habilidades .habilidade-jk::before{
+    content: "";
+    width: 60%;
+    height: 20px;
+    background-color: var(--blue-5);
+    position: absolute;
+    top: -5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.section-habilidades .habilidade-number-jk::before{
+    content: "60%";
+    width: 60%;
+    height: 20px;
+    color: var(--blue-1);
+    position: absolute;
+    top: -5px;
+    left: -8px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-habilidades .habilidade-bt::before{
+    content: "";
+    width: 80%;
+    height: 20px;
+    background-color: var(--blue-5);
+    position: absolute;
+    top: -5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.section-habilidades .habilidade-number-bt::before{
+    content: "80%";
+    width: 80%;
+    height: 20px;
+    color: var(--blue-1);
+    position: absolute;
+    top: -5px;
+    left: -8px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (max-width: 700px){
+
+    .section{
+        padding: 30px 30px;
+        height: auto;
+    }
+
+}

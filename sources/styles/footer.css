@@ -1,0 +1,41 @@
+/* CSS Footer - Fabricio Oliveira */
+
+#footer{
+    background-color: var(--footer);
+}
+
+
+#footer .card{
+    padding: 50px 30px;
+    background-color: var(--blue-2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+
+#footer .card .card-icon{
+    font-size: 40px;
+}
+
+#footer .card .card-title{
+    margin-top: 30px;
+}
+
+#footer .card:hover{
+    transform: scale(0.90);
+}
+
+.footer-info{
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}

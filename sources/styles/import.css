@@ -1,0 +1,49 @@
+/* CSS Import - Fabricio Oliveira */
+
+
+    /* frameworks */
+
+        /* bootstrap-grid */
+        @import url(../frameworks/bootstrap-grid/bootstrap-grid.css);
+
+        /* fontawesome */
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+    /* frameworks */
+
+    /* custom */
+
+        /* config */
+        @import url(config.css);
+
+        /* colors */
+        @import url(colors.css);
+
+        /* aside */
+        @import url(aside.css);
+
+        /* navbar */
+        @import url(navbar.css);
+        
+        /* header */
+        @import url(header.css);
+
+        /* section */
+        @import url(section.css);
+
+        /* footer */
+        @import url(footer.css);
+
+    /* custom */
+
+
+    /* fonts */
+    
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        @font-face{
+            font-family: cherolina;
+            src: url(../fonts/cherolina.ttf);
+        }
+
+    /* fonts */

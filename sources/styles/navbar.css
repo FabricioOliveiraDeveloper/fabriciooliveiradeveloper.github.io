@@ -1,0 +1,108 @@
+/* CSS Navbar - Fabricio Oliveira */
+
+/* navbar */
+#navbar{
+    width: 0;
+    height: 100vh;
+    padding: 0 0;
+    margin: 0 0;
+    background-color: var(--navbar);
+    color: var(--navbar-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: width 0.5s;
+    overflow: hidden;
+}
+
+/* nav-chk */
+#nav-chk{
+    display: none;
+}
+
+/* navbar checked nav-chk */
+#nav-chk:checked ~ #navbar{
+    width: 100%;
+}
+
+/* nav-stop */
+.nav-stop{
+    width: 0px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: width 0.8s, opacity 0.3s;
+    cursor: pointer;
+    z-index: 3;
+}
+
+/* navbar checked nav-chk */
+#nav-chk:checked ~ .nav-stop{
+    width: 100%;
+    opacity: 1;
+}
+
+.nav-list{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: inherit;
+    padding: 10px 20px;
+    transition: padding 0.5s;
+    position: relative;
+}
+
+.nav-link p{
+    position: relative;
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    right: 0px;
+    left: 0;
+    bottom: 10px;
+    background-color: var(--blue-3);
+    width: 0px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+    opacity: 0.3;
+    left: 0;
+}
+
+/* viewport 1200px */
+@media (max-width: 1200px){
+
+    #navbar{
+        width: 0px;
+    }
+
+    /* navbar checked nav-chk */
+    #nav-chk:checked ~ #navbar{
+        width: 280px;
+    }
+
+}

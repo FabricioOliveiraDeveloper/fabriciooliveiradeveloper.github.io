@@ -1,0 +1,115 @@
+/* CSS Header - Fabricio Oliveira */
+
+/* header */
+header{
+    width: auto;
+    height: 100vh;
+    background-color: var(--header);
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+}
+
+
+/* header-bg */
+.header-bg{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header-info{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-box{
+    padding: 0px 30px;
+}
+
+.header-title{
+    font-size: 30px;
+    color: var(--header-title);
+}
+
+.header-name{
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 100px;
+    padding: 20px 0px;
+    color: var(--header-name);
+}
+
+.header-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--header-text);
+}
+
+
+
+.header-nav{
+    width: 100%;
+    background-color: var(--header-nav);
+    padding: 20px;
+    position: relative;
+    top: 100px;
+}
+
+
+.header-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-item{
+    list-style: none;
+}
+
+.header-link{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--header-link);
+}
+
+@media (max-width: 1200px){
+
+    /* header */
+    header{
+        height: 100vh;
+        background-color: var(--header);
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    /* header-box */
+    .header-info{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    /* header-bg */
+    .header-bg{
+        display: none;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .header-info{
+        width: 100%;
+    }
+
+    .header-name{
+        font-size: 18vw;
+        line-height: 18vw;
+    }
+
+}

@@ -1,0 +1,87 @@
+/* CSS Config - Fabricio Oliveira */
+
+/* config page */
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* config body */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body);
+    color: var(--body-text);
+}
+
+/* main confg grid-layout */
+ main{
+    display: grid;
+    grid-template-columns: 1fr 3.3fr;
+    grid-template-areas: 
+        "aside header"
+        "aside section"
+        "aside footer"
+    ;
+}
+
+/* aside confg grid-layout */
+aside{
+    grid-area: aside;
+    background-color: var(--aside);
+}
+
+/* header confg grid-layout */
+header{
+    grid-area: header;
+    height: 100vh;
+}
+
+/* section confg grid-layout */
+section{
+    grid-area: section;
+}
+
+/* footer confg grid-layout */
+footer{
+    grid-area: footer;
+    background-color: white;
+}
+
+.container-fluid{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+.btn{
+    background-color: var(--btn);
+    color: white;
+    border: 0px 0px;
+    border-radius: 5px;
+    padding: 20px 25px;
+    margin: 10px 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* viewport 1200px */
+@media (max-width: 1200px){
+
+    /* main confg grid-layout */
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "aside"
+            "header"
+            "section"
+            "footer"
+        ;
+    }
+
+}

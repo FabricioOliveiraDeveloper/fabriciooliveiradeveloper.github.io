@@ -1,0 +1,48 @@
+/* CSS Colors - Fabricio Oliveira */
+
+:root{
+
+    /* paleta de cores */
+    --black: #000000;
+    --white: #FFFFFF;
+
+    --blue-1: #0c0d29;
+    --blue-2: #0e1136;
+    --blue-3: #151957;
+    --blue-4: #393c8f;
+    --blue-5: #858adb;
+
+    --body: var(--blue-1);
+    --body-text: var(--blue-5);
+
+    --btn: var(--blue-2);
+
+    --aside: var(--blue-2);
+    --aside-title: var(--blue-5);
+    --aside-subtitle: var(--white);
+
+    --navbar: var(--blue-5);
+    --navbar-text: var(--white);
+
+    --header: var(--white);
+    --header-title: var(--blue-3);
+    --header-name: var(--blue-5);
+    --header-text: var(--blue-4);
+    --header-link: var(--blue-3);
+    --header-nav: var(--white);
+    --header-link: var(--blue-3);
+
+
+    --section:var(--blue-1);
+    --section-text: var(--white);
+    --section-card: var(--blue-2);
+    --section-btn: var(--blue-2);
+    --section-btn-text: var(--white);
+
+    --resumo-line: var(--blue-3);
+    --resumo-circle: var(--blue-1);
+    --resumo-circle-hover: var(--blue-3);
+    --resumo-card: var(--blue-2);
+    
+    --footer: var(--blue-1);
+}
